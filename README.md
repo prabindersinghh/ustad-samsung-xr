@@ -88,7 +88,24 @@ Caveat: LaViLa was itself fine-tuned on the EPIC-100 train split, so its predict
 more confident than on unseen video. Scores measured on train episodes therefore overstate what to expect
 on the validation videos; we use them only to compare selection rules against each other.
 
-RESULTS_PLACEHOLDER
+## Results we can measure ourselves
+
+The official scorer and the scored subset are hidden, so these are our own checks. Train-episode numbers come
+from 27 EPIC-100 **train** videos with a fixed 80/20 split (seed 7) and our implementation of the kit metrics.
+
+| Check | Result |
+|---|---|
+| Output files | OUTPUTS_LINE |
+| Highlight budget | mean MEAN_HL of video length, max MAX_HL; every segment ≥ 4.0 s, sorted, non-overlapping |
+| FPVSum label agreement with the dataset category in the video name (reporting only, never used by the code) | LABEL_LINE |
+| Action-scoring head, held-out train videos | action mAP 0.735 → 0.737 (kept) |
+| RL highlight policy, held-out train videos | coverage 0.465 vs greedy rule 0.479 (not used) |
+| Coverage-confidence threshold 0.12 vs 0.20, all 27 train videos | 10 better, 10 worse, 7 equal: kept 0.12 |
+| Coverage / action mAP of the shipped pipeline, held-out train videos | 0.479 / 0.737 (overstated, see caveat above) |
+
+Two FPVSum videos (`Scuba_KD74Ywuy9ng`, `Scuba_Um4kqB8bQBg`) could not be downloaded: YouTube reports them
+unavailable from our region and blocks the cloud fallback. Run `./run.sh` on them to produce their outputs; the
+pipeline handles them like any other video.
 
 ## Reproducing `outputs/`
 
@@ -98,14 +115,23 @@ RESULTS_PLACEHOLDER
   what `./run.sh` gives for the same video with the final weights (spot-checked by re-running `./run.sh`).
 - FPVSum (49): `scripts/download_fpvsum.py` (official `FPVSum_videolist.csv` mapping, yt-dlp) then
   `scripts/run_dir.py`.
-- `scripts/check_outputs.py` validates every file against the manifest durations and vocabulary.
+- `scripts/check_outputs.py` validates every file against the manifest durations and vocabulary;
+  `scripts/stats.py` prints the numbers above.
+- `scripts/make_reel.py <video> <json> <reel.mp4>` cuts the highlight reel from the original footage.
+- Weights: `./get_weights.sh` downloads and verifies the two large checkpoints from the GitHub release.
+
+## Note on the output schema
+
+The organisers' overview slide shows a simplified JSON (`start`/`end`, `importance`). We follow the student kit's
+`TEAM_README.md` and its example files exactly (`segment: [start, end]`, six top-level keys), since that is the
+format `validate.py` checks.
 
 ## Files
 
 ```
 run.sh                 entry point
 code/ustad_t4/         pipeline (run, actions, label, importance, postprocess, select, refine, schema, scoring)
-code/third_party/LaViLa  model definition (MIT licence)
+code/third_party/lavila_min  LaViLa model definition, two files (MIT licence)
 weights/               LaViLa, OpenCLIP, refine.json, policy.json
 outputs/               one JSON per manifest video
 scripts/, cloud/       data download, batch runs, training, validation
