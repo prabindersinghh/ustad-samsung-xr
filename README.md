@@ -84,6 +84,10 @@ Each is kept only if it beats the hand-written rule on held-out train videos; ot
 and the 138 EPIC validation videos and 49 FPVSum videos in `manifest.csv` have zero overlap with the
 training videos. No code path reads the video ID except to echo it into the output.
 
+Caveat: LaViLa was itself fine-tuned on the EPIC-100 train split, so its predictions on train videos are
+more confident than on unseen video. Scores measured on train episodes therefore overstate what to expect
+on the validation videos; we use them only to compare selection rules against each other.
+
 RESULTS_PLACEHOLDER
 
 ## Reproducing `outputs/`

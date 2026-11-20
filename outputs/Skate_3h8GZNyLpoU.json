@@ -1,0 +1,36 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Skate_3h8GZNyLpoU",
+  "duration_sec": 136.44,
+  "label": {
+    "name": "skate",
+    "score": 0.6634
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        15.0,
+        19.2
+      ]
+    },
+    {
+      "segment": [
+        87.0,
+        91.2
+      ]
+    },
+    {
+      "segment": [
+        96.0,
+        100.2
+      ]
+    },
+    {
+      "segment": [
+        105.0,
+        109.2
+      ]
+    }
+  ]
+}

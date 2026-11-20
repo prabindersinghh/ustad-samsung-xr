@@ -1,0 +1,36 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Surfing_8mG4YzFZ9xU",
+  "duration_sec": 124.02,
+  "label": {
+    "name": "surfing",
+    "score": 0.6653
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        29.0,
+        33.2
+      ]
+    },
+    {
+      "segment": [
+        35.0,
+        39.2
+      ]
+    },
+    {
+      "segment": [
+        102.0,
+        106.2
+      ]
+    },
+    {
+      "segment": [
+        107.0,
+        111.2
+      ]
+    }
+  ]
+}

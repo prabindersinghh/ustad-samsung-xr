@@ -1,0 +1,90 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "RockClimbing_mDUcIkDzpVI",
+  "duration_sec": 377.07,
+  "label": {
+    "name": "rockclimbing",
+    "score": 0.9831
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        12.0,
+        16.2
+      ]
+    },
+    {
+      "segment": [
+        40.0,
+        44.2
+      ]
+    },
+    {
+      "segment": [
+        62.0,
+        66.2
+      ]
+    },
+    {
+      "segment": [
+        125.0,
+        129.2
+      ]
+    },
+    {
+      "segment": [
+        189.0,
+        193.2
+      ]
+    },
+    {
+      "segment": [
+        199.0,
+        203.2
+      ]
+    },
+    {
+      "segment": [
+        241.0,
+        245.2
+      ]
+    },
+    {
+      "segment": [
+        253.0,
+        257.2
+      ]
+    },
+    {
+      "segment": [
+        263.0,
+        267.2
+      ]
+    },
+    {
+      "segment": [
+        271.0,
+        275.2
+      ]
+    },
+    {
+      "segment": [
+        291.0,
+        295.2
+      ]
+    },
+    {
+      "segment": [
+        309.0,
+        313.2
+      ]
+    },
+    {
+      "segment": [
+        317.0,
+        321.2
+      ]
+    }
+  ]
+}

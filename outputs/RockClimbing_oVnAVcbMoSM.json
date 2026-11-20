@@ -1,0 +1,24 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "RockClimbing_oVnAVcbMoSM",
+  "duration_sec": 83.57,
+  "label": {
+    "name": "rockclimbing",
+    "score": 0.9784
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        25.0,
+        29.2
+      ]
+    },
+    {
+      "segment": [
+        47.0,
+        51.2
+      ]
+    }
+  ]
+}

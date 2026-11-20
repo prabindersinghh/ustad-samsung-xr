@@ -1,0 +1,48 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Scuba__JnCVbCL5Wg",
+  "duration_sec": 194.63,
+  "label": {
+    "name": "scuba",
+    "score": 0.8832
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        14.0,
+        18.2
+      ]
+    },
+    {
+      "segment": [
+        28.0,
+        32.2
+      ]
+    },
+    {
+      "segment": [
+        39.0,
+        43.2
+      ]
+    },
+    {
+      "segment": [
+        59.0,
+        63.2
+      ]
+    },
+    {
+      "segment": [
+        76.0,
+        80.2
+      ]
+    },
+    {
+      "segment": [
+        153.0,
+        157.2
+      ]
+    }
+  ]
+}

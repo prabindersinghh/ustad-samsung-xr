@@ -1,0 +1,54 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Surfing_G7lPf1gF-W4",
+  "duration_sec": 204.13,
+  "label": {
+    "name": "surfing",
+    "score": 0.9977
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        1.0,
+        5.2
+      ]
+    },
+    {
+      "segment": [
+        57.0,
+        61.2
+      ]
+    },
+    {
+      "segment": [
+        66.0,
+        70.2
+      ]
+    },
+    {
+      "segment": [
+        84.0,
+        88.2
+      ]
+    },
+    {
+      "segment": [
+        102.0,
+        106.2
+      ]
+    },
+    {
+      "segment": [
+        163.0,
+        167.2
+      ]
+    },
+    {
+      "segment": [
+        193.0,
+        197.2
+      ]
+    }
+  ]
+}

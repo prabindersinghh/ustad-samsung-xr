@@ -1,0 +1,54 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Plane_QsL_gCDHWHA",
+  "duration_sec": 205.52,
+  "label": {
+    "name": "other",
+    "score": 0.6651
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        21.0,
+        25.2
+      ]
+    },
+    {
+      "segment": [
+        34.0,
+        38.2
+      ]
+    },
+    {
+      "segment": [
+        87.0,
+        91.2
+      ]
+    },
+    {
+      "segment": [
+        96.0,
+        100.2
+      ]
+    },
+    {
+      "segment": [
+        102.0,
+        106.2
+      ]
+    },
+    {
+      "segment": [
+        125.0,
+        129.2
+      ]
+    },
+    {
+      "segment": [
+        180.0,
+        184.2
+      ]
+    }
+  ]
+}

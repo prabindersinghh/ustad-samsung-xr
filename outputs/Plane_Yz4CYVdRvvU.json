@@ -1,0 +1,30 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Plane_Yz4CYVdRvvU",
+  "duration_sec": 111.41,
+  "label": {
+    "name": "plane",
+    "score": 0.6946
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        28.0,
+        32.2
+      ]
+    },
+    {
+      "segment": [
+        40.0,
+        44.2
+      ]
+    },
+    {
+      "segment": [
+        52.0,
+        56.2
+      ]
+    }
+  ]
+}

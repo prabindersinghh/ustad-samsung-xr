@@ -1,0 +1,54 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Motor_tWEfvMZQ7j4",
+  "duration_sec": 202.64,
+  "label": {
+    "name": "motor",
+    "score": 0.8507
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        21.0,
+        25.2
+      ]
+    },
+    {
+      "segment": [
+        65.0,
+        69.2
+      ]
+    },
+    {
+      "segment": [
+        96.0,
+        100.2
+      ]
+    },
+    {
+      "segment": [
+        127.0,
+        131.2
+      ]
+    },
+    {
+      "segment": [
+        134.0,
+        138.2
+      ]
+    },
+    {
+      "segment": [
+        179.0,
+        183.2
+      ]
+    },
+    {
+      "segment": [
+        198.0,
+        202.2
+      ]
+    }
+  ]
+}

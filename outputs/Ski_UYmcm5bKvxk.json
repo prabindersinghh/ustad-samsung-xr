@@ -1,0 +1,42 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Ski_UYmcm5bKvxk",
+  "duration_sec": 158.52,
+  "label": {
+    "name": "ski",
+    "score": 0.8702
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        0.0,
+        4.2
+      ]
+    },
+    {
+      "segment": [
+        11.0,
+        15.2
+      ]
+    },
+    {
+      "segment": [
+        105.0,
+        109.2
+      ]
+    },
+    {
+      "segment": [
+        120.0,
+        124.2
+      ]
+    },
+    {
+      "segment": [
+        134.0,
+        138.2
+      ]
+    }
+  ]
+}

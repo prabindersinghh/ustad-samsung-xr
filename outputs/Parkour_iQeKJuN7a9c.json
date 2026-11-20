@@ -1,0 +1,36 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Parkour_iQeKJuN7a9c",
+  "duration_sec": 123.07,
+  "label": {
+    "name": "parkour",
+    "score": 0.8496
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        6.0,
+        10.2
+      ]
+    },
+    {
+      "segment": [
+        32.0,
+        36.2
+      ]
+    },
+    {
+      "segment": [
+        89.0,
+        93.2
+      ]
+    },
+    {
+      "segment": [
+        105.0,
+        109.2
+      ]
+    }
+  ]
+}

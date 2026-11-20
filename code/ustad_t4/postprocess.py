@@ -26,7 +26,8 @@ HL_LEN = 4.2           # highlight segment length (kit ignores segments < 4.0 s)
 HL_STRIDE = 1.0
 
 
-def window_pairs(w, k: int = PAIR_TOPK) -> list[tuple[int, int, float]]:
+def window_pairs(w, k: int | None = None) -> list[tuple[int, int, float]]:
+    k = PAIR_TOPK if k is None else k
     out = []
     for vi, pv in w.verbs[:k]:
         for ni, pn in w.nouns[:k]:
