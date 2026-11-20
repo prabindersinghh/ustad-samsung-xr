@@ -1,0 +1,48 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Jumping_IPRT9MZh3_s",
+  "duration_sec": 175.8,
+  "label": {
+    "name": "jumping",
+    "score": 0.4316
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        81.0,
+        85.2
+      ]
+    },
+    {
+      "segment": [
+        86.0,
+        90.2
+      ]
+    },
+    {
+      "segment": [
+        93.0,
+        97.2
+      ]
+    },
+    {
+      "segment": [
+        101.0,
+        105.2
+      ]
+    },
+    {
+      "segment": [
+        110.0,
+        114.2
+      ]
+    },
+    {
+      "segment": [
+        134.0,
+        138.2
+      ]
+    }
+  ]
+}

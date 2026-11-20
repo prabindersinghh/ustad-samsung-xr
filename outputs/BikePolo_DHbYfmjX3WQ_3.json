@@ -1,0 +1,48 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "BikePolo_DHbYfmjX3WQ_3",
+  "duration_sec": 169.78,
+  "label": {
+    "name": "bikepolo",
+    "score": 0.7148
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        67.0,
+        71.2
+      ]
+    },
+    {
+      "segment": [
+        102.0,
+        106.2
+      ]
+    },
+    {
+      "segment": [
+        111.0,
+        115.2
+      ]
+    },
+    {
+      "segment": [
+        131.0,
+        135.2
+      ]
+    },
+    {
+      "segment": [
+        139.0,
+        143.2
+      ]
+    },
+    {
+      "segment": [
+        165.0,
+        169.2
+      ]
+    }
+  ]
+}

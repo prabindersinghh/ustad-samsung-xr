@@ -1,0 +1,36 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Longboarding_sgXJldYfbAs",
+  "duration_sec": 135.44,
+  "label": {
+    "name": "longboarding",
+    "score": 0.6174
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        2.0,
+        6.2
+      ]
+    },
+    {
+      "segment": [
+        20.0,
+        24.2
+      ]
+    },
+    {
+      "segment": [
+        49.0,
+        53.2
+      ]
+    },
+    {
+      "segment": [
+        77.0,
+        81.2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+data/
+weights/*.pth
+weights/clip/
+outputs_cloud/
+*.log
+__pycache__/

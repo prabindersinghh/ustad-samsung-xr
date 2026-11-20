@@ -1,0 +1,36 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Boxing_mDOxBVYvDCU",
+  "duration_sec": 135.0,
+  "label": {
+    "name": "boxing",
+    "score": 0.7175
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        54.0,
+        58.2
+      ]
+    },
+    {
+      "segment": [
+        69.0,
+        73.2
+      ]
+    },
+    {
+      "segment": [
+        95.0,
+        99.2
+      ]
+    },
+    {
+      "segment": [
+        129.0,
+        133.2
+      ]
+    }
+  ]
+}

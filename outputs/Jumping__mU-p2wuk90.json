@@ -1,0 +1,36 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Jumping__mU-p2wuk90",
+  "duration_sec": 131.75,
+  "label": {
+    "name": "jumping",
+    "score": 0.9586
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        11.0,
+        15.2
+      ]
+    },
+    {
+      "segment": [
+        78.0,
+        82.2
+      ]
+    },
+    {
+      "segment": [
+        86.0,
+        90.2
+      ]
+    },
+    {
+      "segment": [
+        93.0,
+        97.2
+      ]
+    }
+  ]
+}

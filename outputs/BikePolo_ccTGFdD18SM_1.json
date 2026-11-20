@@ -1,0 +1,60 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "BikePolo_ccTGFdD18SM_1",
+  "duration_sec": 250.73,
+  "label": {
+    "name": "bikepolo",
+    "score": 0.4056
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        10.0,
+        14.2
+      ]
+    },
+    {
+      "segment": [
+        52.0,
+        56.2
+      ]
+    },
+    {
+      "segment": [
+        65.0,
+        69.2
+      ]
+    },
+    {
+      "segment": [
+        96.0,
+        100.2
+      ]
+    },
+    {
+      "segment": [
+        110.0,
+        114.2
+      ]
+    },
+    {
+      "segment": [
+        138.0,
+        142.2
+      ]
+    },
+    {
+      "segment": [
+        154.0,
+        158.2
+      ]
+    },
+    {
+      "segment": [
+        179.0,
+        183.2
+      ]
+    }
+  ]
+}

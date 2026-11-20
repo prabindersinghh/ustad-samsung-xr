@@ -1,0 +1,36 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Bike_x76VEPXYaI0",
+  "duration_sec": 123.3,
+  "label": {
+    "name": "bike",
+    "score": 0.6392
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        68.0,
+        72.2
+      ]
+    },
+    {
+      "segment": [
+        103.0,
+        107.2
+      ]
+    },
+    {
+      "segment": [
+        110.0,
+        114.2
+      ]
+    },
+    {
+      "segment": [
+        115.0,
+        119.2
+      ]
+    }
+  ]
+}

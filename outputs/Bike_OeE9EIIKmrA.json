@@ -1,0 +1,60 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Bike_OeE9EIIKmrA",
+  "duration_sec": 226.7,
+  "label": {
+    "name": "bike",
+    "score": 0.6481
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        33.0,
+        37.2
+      ]
+    },
+    {
+      "segment": [
+        69.0,
+        73.2
+      ]
+    },
+    {
+      "segment": [
+        77.0,
+        81.2
+      ]
+    },
+    {
+      "segment": [
+        117.0,
+        121.2
+      ]
+    },
+    {
+      "segment": [
+        126.0,
+        130.2
+      ]
+    },
+    {
+      "segment": [
+        188.0,
+        192.2
+      ]
+    },
+    {
+      "segment": [
+        201.0,
+        205.2
+      ]
+    },
+    {
+      "segment": [
+        211.0,
+        215.2
+      ]
+    }
+  ]
+}

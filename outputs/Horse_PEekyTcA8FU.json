@@ -1,0 +1,60 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Horse_PEekyTcA8FU",
+  "duration_sec": 229.13,
+  "label": {
+    "name": "horse",
+    "score": 0.7022
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        2.0,
+        6.2
+      ]
+    },
+    {
+      "segment": [
+        10.0,
+        14.2
+      ]
+    },
+    {
+      "segment": [
+        102.0,
+        106.2
+      ]
+    },
+    {
+      "segment": [
+        127.0,
+        131.2
+      ]
+    },
+    {
+      "segment": [
+        156.0,
+        160.2
+      ]
+    },
+    {
+      "segment": [
+        161.0,
+        165.2
+      ]
+    },
+    {
+      "segment": [
+        176.0,
+        180.2
+      ]
+    },
+    {
+      "segment": [
+        197.0,
+        201.2
+      ]
+    }
+  ]
+}

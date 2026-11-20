@@ -1,0 +1,42 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "Horse_7ZzWccM_5cM",
+  "duration_sec": 146.24,
+  "label": {
+    "name": "horse",
+    "score": 0.9939
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        61.0,
+        65.2
+      ]
+    },
+    {
+      "segment": [
+        77.0,
+        81.2
+      ]
+    },
+    {
+      "segment": [
+        95.0,
+        99.2
+      ]
+    },
+    {
+      "segment": [
+        108.0,
+        112.2
+      ]
+    },
+    {
+      "segment": [
+        137.0,
+        141.2
+      ]
+    }
+  ]
+}
