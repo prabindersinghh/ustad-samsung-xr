@@ -1,0 +1,1420 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "P18_08",
+  "duration_sec": 66.52,
+  "label": {
+    "name": "cooking",
+    "score": 0.9866
+  },
+  "actions": [
+    {
+      "segment": [
+        22.0,
+        25.0
+      ],
+      "verb": "take",
+      "noun": "fork",
+      "score": 0.8669
+    },
+    {
+      "segment": [
+        49.0,
+        52.0
+      ],
+      "verb": "close",
+      "noun": "bottle",
+      "score": 0.8419
+    },
+    {
+      "segment": [
+        40.0,
+        43.0
+      ],
+      "verb": "put",
+      "noun": "spoon",
+      "score": 0.8391
+    },
+    {
+      "segment": [
+        31.0,
+        36.0
+      ],
+      "verb": "insert",
+      "noun": "pasta",
+      "score": 0.8088
+    },
+    {
+      "segment": [
+        23.0,
+        25.0
+      ],
+      "verb": "put",
+      "noun": "fork",
+      "score": 0.7924
+    },
+    {
+      "segment": [
+        35.0,
+        38.0
+      ],
+      "verb": "put",
+      "noun": "plate",
+      "score": 0.7913
+    },
+    {
+      "segment": [
+        40.0,
+        43.0
+      ],
+      "verb": "put",
+      "noun": "fork",
+      "score": 0.7106
+    },
+    {
+      "segment": [
+        59.0,
+        64.0
+      ],
+      "verb": "turn-on",
+      "noun": "oven",
+      "score": 0.5862
+    },
+    {
+      "segment": [
+        46.0,
+        49.0
+      ],
+      "verb": "turn-on",
+      "noun": "hob",
+      "score": 0.5797
+    },
+    {
+      "segment": [
+        28.0,
+        35.0
+      ],
+      "verb": "insert",
+      "noun": "meat",
+      "score": 0.5662
+    },
+    {
+      "segment": [
+        14.0,
+        17.0
+      ],
+      "verb": "take",
+      "noun": "spice",
+      "score": 0.5415
+    },
+    {
+      "segment": [
+        24.0,
+        26.0
+      ],
+      "verb": "take",
+      "noun": "plate",
+      "score": 0.5268
+    },
+    {
+      "segment": [
+        24.0,
+        27.0
+      ],
+      "verb": "put",
+      "noun": "plate",
+      "score": 0.5048
+    },
+    {
+      "segment": [
+        55.0,
+        60.0
+      ],
+      "verb": "turn-off",
+      "noun": "oven",
+      "score": 0.5034
+    },
+    {
+      "segment": [
+        6.0,
+        9.0
+      ],
+      "verb": "put",
+      "noun": "glass",
+      "score": 0.4895
+    },
+    {
+      "segment": [
+        9.0,
+        13.0
+      ],
+      "verb": "take",
+      "noun": "spice",
+      "score": 0.4806
+    },
+    {
+      "segment": [
+        45.0,
+        49.0
+      ],
+      "verb": "turn-on",
+      "noun": "oven",
+      "score": 0.4585
+    },
+    {
+      "segment": [
+        54.0,
+        56.0
+      ],
+      "verb": "take",
+      "noun": "oil",
+      "score": 0.4474
+    },
+    {
+      "segment": [
+        55.0,
+        59.0
+      ],
+      "verb": "turn-on",
+      "noun": "oven",
+      "score": 0.4358
+    },
+    {
+      "segment": [
+        26.0,
+        29.0
+      ],
+      "verb": "insert",
+      "noun": "pasta",
+      "score": 0.4274
+    },
+    {
+      "segment": [
+        3.0,
+        6.0
+      ],
+      "verb": "put",
+      "noun": "pan",
+      "score": 0.4244
+    },
+    {
+      "segment": [
+        35.0,
+        38.0
+      ],
+      "verb": "put",
+      "noun": "fork",
+      "score": 0.4193
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "open",
+      "noun": "lid",
+      "score": 0.3788
+    },
+    {
+      "segment": [
+        5.0,
+        7.0
+      ],
+      "verb": "put",
+      "noun": "knife",
+      "score": 0.3736
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "take",
+      "noun": "spice",
+      "score": 0.3543
+    },
+    {
+      "segment": [
+        11.0,
+        13.0
+      ],
+      "verb": "put",
+      "noun": "spice",
+      "score": 0.3451
+    },
+    {
+      "segment": [
+        20.0,
+        23.0
+      ],
+      "verb": "put",
+      "noun": "salt",
+      "score": 0.308
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "take",
+      "noun": "pasta",
+      "score": 0.3059
+    },
+    {
+      "segment": [
+        26.0,
+        28.0
+      ],
+      "verb": "pour",
+      "noun": "pasta",
+      "score": 0.3041
+    },
+    {
+      "segment": [
+        63.0,
+        66.0
+      ],
+      "verb": "transition",
+      "noun": "kitchen",
+      "score": 0.3034
+    },
+    {
+      "segment": [
+        1.0,
+        3.0
+      ],
+      "verb": "turn-on",
+      "noun": "oven",
+      "score": 0.2987
+    },
+    {
+      "segment": [
+        51.0,
+        53.0
+      ],
+      "verb": "put",
+      "noun": "jar",
+      "score": 0.2757
+    },
+    {
+      "segment": [
+        12.0,
+        14.0
+      ],
+      "verb": "close",
+      "noun": "jar",
+      "score": 0.2685
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "take",
+      "noun": "cupboard",
+      "score": 0.2673
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "open",
+      "noun": "spice",
+      "score": 0.2653
+    },
+    {
+      "segment": [
+        60.0,
+        64.0
+      ],
+      "verb": "turn-off",
+      "noun": "oven",
+      "score": 0.2653
+    },
+    {
+      "segment": [
+        48.0,
+        50.0
+      ],
+      "verb": "open",
+      "noun": "lid",
+      "score": 0.2635
+    },
+    {
+      "segment": [
+        14.0,
+        16.0
+      ],
+      "verb": "take",
+      "noun": "glass",
+      "score": 0.263
+    },
+    {
+      "segment": [
+        3.0,
+        8.0
+      ],
+      "verb": "put",
+      "noun": "lid",
+      "score": 0.2599
+    },
+    {
+      "segment": [
+        27.0,
+        33.0
+      ],
+      "verb": "insert",
+      "noun": "sausage",
+      "score": 0.2432
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "put",
+      "noun": "spice",
+      "score": 0.2408
+    },
+    {
+      "segment": [
+        42.0,
+        44.0
+      ],
+      "verb": "turn-on",
+      "noun": "hob",
+      "score": 0.2363
+    },
+    {
+      "segment": [
+        52.0,
+        54.0
+      ],
+      "verb": "put",
+      "noun": "box",
+      "score": 0.2279
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "insert",
+      "noun": "salt",
+      "score": 0.225
+    },
+    {
+      "segment": [
+        63.0,
+        65.0
+      ],
+      "verb": "transition",
+      "noun": "water",
+      "score": 0.2238
+    },
+    {
+      "segment": [
+        39.0,
+        41.0
+      ],
+      "verb": "mix",
+      "noun": "sauce",
+      "score": 0.217
+    },
+    {
+      "segment": [
+        43.0,
+        45.0
+      ],
+      "verb": "turn-on",
+      "noun": "microwave",
+      "score": 0.2132
+    },
+    {
+      "segment": [
+        38.0,
+        40.0
+      ],
+      "verb": "mix",
+      "noun": "pasta",
+      "score": 0.2094
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "transition",
+      "noun": "cup",
+      "score": 0.197
+    },
+    {
+      "segment": [
+        18.0,
+        20.0
+      ],
+      "verb": "pour",
+      "noun": "lid",
+      "score": 0.1965
+    },
+    {
+      "segment": [
+        60.0,
+        64.0
+      ],
+      "verb": "turn-on",
+      "noun": "hob",
+      "score": 0.1908
+    },
+    {
+      "segment": [
+        45.0,
+        48.0
+      ],
+      "verb": "turn-on",
+      "noun": "knob",
+      "score": 0.1829
+    },
+    {
+      "segment": [
+        49.0,
+        52.0
+      ],
+      "verb": "close",
+      "noun": "cap",
+      "score": 0.175
+    },
+    {
+      "segment": [
+        28.0,
+        31.0
+      ],
+      "verb": "insert",
+      "noun": "pan",
+      "score": 0.1734
+    },
+    {
+      "segment": [
+        60.0,
+        64.0
+      ],
+      "verb": "turn-off",
+      "noun": "hob",
+      "score": 0.1714
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "take",
+      "noun": "glass",
+      "score": 0.1496
+    },
+    {
+      "segment": [
+        2.0,
+        5.0
+      ],
+      "verb": "take",
+      "noun": "pan",
+      "score": 0.1418
+    },
+    {
+      "segment": [
+        25.0,
+        28.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.1398
+    },
+    {
+      "segment": [
+        2.0,
+        5.0
+      ],
+      "verb": "lift",
+      "noun": "pan",
+      "score": 0.1386
+    },
+    {
+      "segment": [
+        56.0,
+        58.0
+      ],
+      "verb": "turn",
+      "noun": "oven",
+      "score": 0.1378
+    },
+    {
+      "segment": [
+        58.0,
+        61.0
+      ],
+      "verb": "wait",
+      "noun": "oven",
+      "score": 0.1369
+    },
+    {
+      "segment": [
+        42.0,
+        45.0
+      ],
+      "verb": "turn-on",
+      "noun": "oven",
+      "score": 0.1352
+    },
+    {
+      "segment": [
+        49.0,
+        51.0
+      ],
+      "verb": "close",
+      "noun": "lid",
+      "score": 0.1352
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "take",
+      "noun": "lid",
+      "score": 0.1236
+    },
+    {
+      "segment": [
+        57.0,
+        59.0
+      ],
+      "verb": "turn-off",
+      "noun": "light",
+      "score": 0.1233
+    },
+    {
+      "segment": [
+        12.0,
+        14.0
+      ],
+      "verb": "close",
+      "noun": "spice",
+      "score": 0.123
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "lift",
+      "noun": "lid",
+      "score": 0.1214
+    },
+    {
+      "segment": [
+        48.0,
+        50.0
+      ],
+      "verb": "take",
+      "noun": "lid",
+      "score": 0.1192
+    },
+    {
+      "segment": [
+        55.0,
+        57.0
+      ],
+      "verb": "turn-on",
+      "noun": "light",
+      "score": 0.1191
+    },
+    {
+      "segment": [
+        36.0,
+        38.0
+      ],
+      "verb": "insert",
+      "noun": "fork",
+      "score": 0.1184
+    },
+    {
+      "segment": [
+        61.0,
+        63.0
+      ],
+      "verb": "turn-on",
+      "noun": "knob",
+      "score": 0.1174
+    },
+    {
+      "segment": [
+        57.0,
+        59.0
+      ],
+      "verb": "turn-off",
+      "noun": "hob",
+      "score": 0.1158
+    },
+    {
+      "segment": [
+        1.0,
+        3.0
+      ],
+      "verb": "open",
+      "noun": "oven",
+      "score": 0.1152
+    },
+    {
+      "segment": [
+        51.0,
+        53.0
+      ],
+      "verb": "put",
+      "noun": "bottle",
+      "score": 0.1152
+    },
+    {
+      "segment": [
+        21.0,
+        23.0
+      ],
+      "verb": "take",
+      "noun": "salt",
+      "score": 0.1108
+    },
+    {
+      "segment": [
+        12.0,
+        14.0
+      ],
+      "verb": "close",
+      "noun": "lid",
+      "score": 0.1104
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "open",
+      "noun": "pan",
+      "score": 0.1096
+    },
+    {
+      "segment": [
+        45.0,
+        47.0
+      ],
+      "verb": "turn-on",
+      "noun": "machine:washing",
+      "score": 0.1095
+    },
+    {
+      "segment": [
+        62.0,
+        64.0
+      ],
+      "verb": "turn-on",
+      "noun": "light",
+      "score": 0.1093
+    },
+    {
+      "segment": [
+        15.0,
+        17.0
+      ],
+      "verb": "take",
+      "noun": "chilli",
+      "score": 0.1092
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "put",
+      "noun": "glass",
+      "score": 0.1083
+    },
+    {
+      "segment": [
+        48.0,
+        50.0
+      ],
+      "verb": "open",
+      "noun": "jar",
+      "score": 0.1082
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "open",
+      "noun": "cupboard",
+      "score": 0.1074
+    },
+    {
+      "segment": [
+        48.0,
+        50.0
+      ],
+      "verb": "take",
+      "noun": "jar",
+      "score": 0.1072
+    },
+    {
+      "segment": [
+        10.0,
+        12.0
+      ],
+      "verb": "take",
+      "noun": "jar",
+      "score": 0.1066
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "search",
+      "noun": "spice",
+      "score": 0.1057
+    },
+    {
+      "segment": [
+        64.0,
+        66.0
+      ],
+      "verb": "dry",
+      "noun": "kitchen",
+      "score": 0.1055
+    },
+    {
+      "segment": [
+        7.0,
+        9.0
+      ],
+      "verb": "remove",
+      "noun": "glass",
+      "score": 0.1045
+    },
+    {
+      "segment": [
+        47.0,
+        49.0
+      ],
+      "verb": "turn-on",
+      "noun": "light",
+      "score": 0.1037
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "take",
+      "noun": "glass",
+      "score": 0.1026
+    },
+    {
+      "segment": [
+        30.0,
+        32.0
+      ],
+      "verb": "insert",
+      "noun": "bacon",
+      "score": 0.1025
+    },
+    {
+      "segment": [
+        32.0,
+        34.0
+      ],
+      "verb": "insert",
+      "noun": "pan",
+      "score": 0.1024
+    },
+    {
+      "segment": [
+        42.0,
+        44.0
+      ],
+      "verb": "remove",
+      "noun": "hob",
+      "score": 0.1017
+    },
+    {
+      "segment": [
+        14.0,
+        16.0
+      ],
+      "verb": "take",
+      "noun": "tuna",
+      "score": 0.1011
+    },
+    {
+      "segment": [
+        24.0,
+        26.0
+      ],
+      "verb": "move",
+      "noun": "plate",
+      "score": 0.1011
+    },
+    {
+      "segment": [
+        55.0,
+        57.0
+      ],
+      "verb": "turn-on",
+      "noun": "hob",
+      "score": 0.1004
+    },
+    {
+      "segment": [
+        63.0,
+        65.0
+      ],
+      "verb": "turn-off",
+      "noun": "water",
+      "score": 0.1004
+    },
+    {
+      "segment": [
+        62.0,
+        64.0
+      ],
+      "verb": "turn-off",
+      "noun": "light",
+      "score": 0.0997
+    },
+    {
+      "segment": [
+        27.0,
+        29.0
+      ],
+      "verb": "insert",
+      "noun": "rice",
+      "score": 0.0992
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "pour",
+      "noun": "salt",
+      "score": 0.099
+    },
+    {
+      "segment": [
+        59.0,
+        61.0
+      ],
+      "verb": "adjust",
+      "noun": "oven",
+      "score": 0.0986
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "take",
+      "noun": "tuna",
+      "score": 0.0985
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "open",
+      "noun": "stock",
+      "score": 0.0983
+    },
+    {
+      "segment": [
+        52.0,
+        54.0
+      ],
+      "verb": "put",
+      "noun": "cereal",
+      "score": 0.0983
+    },
+    {
+      "segment": [
+        60.0,
+        62.0
+      ],
+      "verb": "turn",
+      "noun": "oven",
+      "score": 0.0983
+    },
+    {
+      "segment": [
+        1.0,
+        3.0
+      ],
+      "verb": "put",
+      "noun": "oven",
+      "score": 0.098
+    },
+    {
+      "segment": [
+        43.0,
+        45.0
+      ],
+      "verb": "turn-on",
+      "noun": "knob",
+      "score": 0.098
+    },
+    {
+      "segment": [
+        33.0,
+        35.0
+      ],
+      "verb": "insert",
+      "noun": "sausage",
+      "score": 0.0973
+    },
+    {
+      "segment": [
+        23.0,
+        25.0
+      ],
+      "verb": "insert",
+      "noun": "fork",
+      "score": 0.0972
+    },
+    {
+      "segment": [
+        7.0,
+        9.0
+      ],
+      "verb": "insert",
+      "noun": "glass",
+      "score": 0.0971
+    },
+    {
+      "segment": [
+        21.0,
+        23.0
+      ],
+      "verb": "put",
+      "noun": "oil",
+      "score": 0.0965
+    },
+    {
+      "segment": [
+        4.0,
+        6.0
+      ],
+      "verb": "put",
+      "noun": "plate",
+      "score": 0.0961
+    },
+    {
+      "segment": [
+        4.0,
+        6.0
+      ],
+      "verb": "close",
+      "noun": "pan",
+      "score": 0.0961
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "put",
+      "noun": "spreads",
+      "score": 0.0959
+    },
+    {
+      "segment": [
+        21.0,
+        23.0
+      ],
+      "verb": "take",
+      "noun": "oil",
+      "score": 0.0959
+    },
+    {
+      "segment": [
+        15.0,
+        17.0
+      ],
+      "verb": "take",
+      "noun": "paste",
+      "score": 0.0957
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "open",
+      "noun": "glass",
+      "score": 0.0956
+    },
+    {
+      "segment": [
+        57.0,
+        59.0
+      ],
+      "verb": "turn-on",
+      "noun": "light",
+      "score": 0.0956
+    },
+    {
+      "segment": [
+        4.0,
+        6.0
+      ],
+      "verb": "insert",
+      "noun": "pan",
+      "score": 0.0955
+    },
+    {
+      "segment": [
+        63.0,
+        65.0
+      ],
+      "verb": "take",
+      "noun": "water",
+      "score": 0.0953
+    },
+    {
+      "segment": [
+        11.0,
+        13.0
+      ],
+      "verb": "open",
+      "noun": "spice",
+      "score": 0.0951
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "move",
+      "noun": "spice",
+      "score": 0.095
+    },
+    {
+      "segment": [
+        52.0,
+        54.0
+      ],
+      "verb": "put",
+      "noun": "spice",
+      "score": 0.095
+    },
+    {
+      "segment": [
+        54.0,
+        56.0
+      ],
+      "verb": "take",
+      "noun": "cupboard",
+      "score": 0.095
+    },
+    {
+      "segment": [
+        10.0,
+        12.0
+      ],
+      "verb": "take",
+      "noun": "sauce",
+      "score": 0.0949
+    },
+    {
+      "segment": [
+        42.0,
+        44.0
+      ],
+      "verb": "remove",
+      "noun": "oven",
+      "score": 0.0949
+    },
+    {
+      "segment": [
+        50.0,
+        52.0
+      ],
+      "verb": "open",
+      "noun": "bottle",
+      "score": 0.0948
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "search",
+      "noun": "cupboard",
+      "score": 0.0947
+    },
+    {
+      "segment": [
+        61.0,
+        63.0
+      ],
+      "verb": "turn-off",
+      "noun": "knob",
+      "score": 0.0947
+    },
+    {
+      "segment": [
+        5.0,
+        7.0
+      ],
+      "verb": "put",
+      "noun": "grater",
+      "score": 0.0944
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "open",
+      "noun": "jar",
+      "score": 0.0944
+    },
+    {
+      "segment": [
+        20.0,
+        22.0
+      ],
+      "verb": "put",
+      "noun": "oregano",
+      "score": 0.0942
+    },
+    {
+      "segment": [
+        34.0,
+        36.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.094
+    },
+    {
+      "segment": [
+        58.0,
+        60.0
+      ],
+      "verb": "transition",
+      "noun": "oven",
+      "score": 0.0937
+    },
+    {
+      "segment": [
+        51.0,
+        53.0
+      ],
+      "verb": "put",
+      "noun": "glass",
+      "score": 0.0935
+    },
+    {
+      "segment": [
+        57.0,
+        59.0
+      ],
+      "verb": "turn-on",
+      "noun": "hob",
+      "score": 0.0935
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "take",
+      "noun": "sausage",
+      "score": 0.0934
+    },
+    {
+      "segment": [
+        54.0,
+        56.0
+      ],
+      "verb": "search",
+      "noun": "oil",
+      "score": 0.0932
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "insert",
+      "noun": "oregano",
+      "score": 0.093
+    },
+    {
+      "segment": [
+        33.0,
+        35.0
+      ],
+      "verb": "pour",
+      "noun": "pasta",
+      "score": 0.093
+    },
+    {
+      "segment": [
+        64.0,
+        66.0
+      ],
+      "verb": "take",
+      "noun": "kitchen",
+      "score": 0.093
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.0926
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "take",
+      "noun": "paste",
+      "score": 0.0925
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "add",
+      "noun": "salt",
+      "score": 0.0924
+    },
+    {
+      "segment": [
+        55.0,
+        57.0
+      ],
+      "verb": "turn-off",
+      "noun": "light",
+      "score": 0.0923
+    },
+    {
+      "segment": [
+        25.0,
+        27.0
+      ],
+      "verb": "put",
+      "noun": "wrap",
+      "score": 0.0913
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "take",
+      "noun": "lid",
+      "score": 0.0911
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "pour",
+      "noun": "oregano",
+      "score": 0.091
+    },
+    {
+      "segment": [
+        20.0,
+        22.0
+      ],
+      "verb": "close",
+      "noun": "salt",
+      "score": 0.091
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "take",
+      "noun": "bean:green",
+      "score": 0.091
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "dry",
+      "noun": "cup",
+      "score": 0.0909
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "transition",
+      "noun": "kitchen",
+      "score": 0.0908
+    },
+    {
+      "segment": [
+        54.0,
+        56.0
+      ],
+      "verb": "transition",
+      "noun": "oil",
+      "score": 0.0908
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "pour",
+      "noun": "pepper",
+      "score": 0.0907
+    },
+    {
+      "segment": [
+        42.0,
+        44.0
+      ],
+      "verb": "move",
+      "noun": "hob",
+      "score": 0.0906
+    }
+  ],
+  "highlights": [
+    {
+      "segment": [
+        3.0,
+        7.2
+      ]
+    },
+    {
+      "segment": [
+        46.0,
+        50.2
+      ]
+    }
+  ]
+}

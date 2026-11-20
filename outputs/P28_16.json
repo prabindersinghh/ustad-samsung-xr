@@ -1,0 +1,2851 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "P28_16",
+  "duration_sec": 313.39,
+  "label": {
+    "name": "cooking",
+    "score": 0.9986
+  },
+  "actions": [
+    {
+      "segment": [
+        114.0,
+        162.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.9956
+    },
+    {
+      "segment": [
+        88.0,
+        113.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.9936
+    },
+    {
+      "segment": [
+        248.0,
+        277.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.9912
+    },
+    {
+      "segment": [
+        227.0,
+        247.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.9815
+    },
+    {
+      "segment": [
+        197.0,
+        225.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.9808
+    },
+    {
+      "segment": [
+        3.0,
+        21.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.9797
+    },
+    {
+      "segment": [
+        10.0,
+        26.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.9797
+    },
+    {
+      "segment": [
+        58.0,
+        62.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.9743
+    },
+    {
+      "segment": [
+        164.0,
+        168.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.9675
+    },
+    {
+      "segment": [
+        267.0,
+        280.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.9575
+    },
+    {
+      "segment": [
+        56.0,
+        58.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.9563
+    },
+    {
+      "segment": [
+        38.0,
+        47.0
+      ],
+      "verb": "throw",
+      "noun": "rubbish",
+      "score": 0.9484
+    },
+    {
+      "segment": [
+        81.0,
+        87.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.9455
+    },
+    {
+      "segment": [
+        46.0,
+        50.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.9435
+    },
+    {
+      "segment": [
+        73.0,
+        75.0
+      ],
+      "verb": "put",
+      "noun": "knife",
+      "score": 0.9423
+    },
+    {
+      "segment": [
+        180.0,
+        192.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.9396
+    },
+    {
+      "segment": [
+        281.0,
+        287.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.9389
+    },
+    {
+      "segment": [
+        296.0,
+        300.0
+      ],
+      "verb": "open",
+      "noun": "freezer",
+      "score": 0.936
+    },
+    {
+      "segment": [
+        288.0,
+        293.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.9341
+    },
+    {
+      "segment": [
+        31.0,
+        47.0
+      ],
+      "verb": "throw",
+      "noun": "skin",
+      "score": 0.929
+    },
+    {
+      "segment": [
+        31.0,
+        38.0
+      ],
+      "verb": "throw",
+      "noun": "rubbish",
+      "score": 0.9253
+    },
+    {
+      "segment": [
+        240.0,
+        247.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.9209
+    },
+    {
+      "segment": [
+        61.0,
+        65.0
+      ],
+      "verb": "throw",
+      "noun": "rubbish",
+      "score": 0.9085
+    },
+    {
+      "segment": [
+        302.0,
+        306.0
+      ],
+      "verb": "close",
+      "noun": "drawer",
+      "score": 0.9069
+    },
+    {
+      "segment": [
+        299.0,
+        302.0
+      ],
+      "verb": "open",
+      "noun": "drawer",
+      "score": 0.9051
+    },
+    {
+      "segment": [
+        309.0,
+        312.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.8991
+    },
+    {
+      "segment": [
+        168.0,
+        175.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.8939
+    },
+    {
+      "segment": [
+        30.0,
+        32.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.893
+    },
+    {
+      "segment": [
+        197.0,
+        209.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.8903
+    },
+    {
+      "segment": [
+        1.0,
+        4.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.8836
+    },
+    {
+      "segment": [
+        162.0,
+        164.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.88
+    },
+    {
+      "segment": [
+        294.0,
+        296.0
+      ],
+      "verb": "put",
+      "noun": "knife",
+      "score": 0.8785
+    },
+    {
+      "segment": [
+        79.0,
+        83.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.8658
+    },
+    {
+      "segment": [
+        112.0,
+        114.0
+      ],
+      "verb": "take",
+      "noun": "skin",
+      "score": 0.8327
+    },
+    {
+      "segment": [
+        163.0,
+        165.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.8165
+    },
+    {
+      "segment": [
+        86.0,
+        89.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.8048
+    },
+    {
+      "segment": [
+        180.0,
+        189.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.803
+    },
+    {
+      "segment": [
+        1.0,
+        3.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.7937
+    },
+    {
+      "segment": [
+        74.0,
+        78.0
+      ],
+      "verb": "throw",
+      "noun": "rubbish",
+      "score": 0.7869
+    },
+    {
+      "segment": [
+        222.0,
+        225.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.775
+    },
+    {
+      "segment": [
+        66.0,
+        74.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.7709
+    },
+    {
+      "segment": [
+        57.0,
+        59.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.7699
+    },
+    {
+      "segment": [
+        181.0,
+        187.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.7661
+    },
+    {
+      "segment": [
+        74.0,
+        78.0
+      ],
+      "verb": "throw",
+      "noun": "skin",
+      "score": 0.7633
+    },
+    {
+      "segment": [
+        78.0,
+        82.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.7575
+    },
+    {
+      "segment": [
+        19.0,
+        24.0
+      ],
+      "verb": "peel",
+      "noun": "skin",
+      "score": 0.7561
+    },
+    {
+      "segment": [
+        48.0,
+        51.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.7538
+    },
+    {
+      "segment": [
+        167.0,
+        169.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.7383
+    },
+    {
+      "segment": [
+        190.0,
+        197.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.7306
+    },
+    {
+      "segment": [
+        24.0,
+        28.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.7119
+    },
+    {
+      "segment": [
+        64.0,
+        67.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.6754
+    },
+    {
+      "segment": [
+        280.0,
+        282.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.6698
+    },
+    {
+      "segment": [
+        286.0,
+        289.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.666
+    },
+    {
+      "segment": [
+        26.0,
+        32.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.6645
+    },
+    {
+      "segment": [
+        64.0,
+        66.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.6503
+    },
+    {
+      "segment": [
+        304.0,
+        306.0
+      ],
+      "verb": "close",
+      "noun": "freezer",
+      "score": 0.6407
+    },
+    {
+      "segment": [
+        66.0,
+        74.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.623
+    },
+    {
+      "segment": [
+        53.0,
+        57.0
+      ],
+      "verb": "throw",
+      "noun": "rubbish",
+      "score": 0.6197
+    },
+    {
+      "segment": [
+        291.0,
+        294.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.6156
+    },
+    {
+      "segment": [
+        23.0,
+        25.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.6117
+    },
+    {
+      "segment": [
+        281.0,
+        284.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.6103
+    },
+    {
+      "segment": [
+        174.0,
+        177.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.6038
+    },
+    {
+      "segment": [
+        168.0,
+        171.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.5949
+    },
+    {
+      "segment": [
+        192.0,
+        197.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.592
+    },
+    {
+      "segment": [
+        279.0,
+        281.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.5754
+    },
+    {
+      "segment": [
+        61.0,
+        63.0
+      ],
+      "verb": "throw",
+      "noun": "knife",
+      "score": 0.5736
+    },
+    {
+      "segment": [
+        246.0,
+        248.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.5663
+    },
+    {
+      "segment": [
+        302.0,
+        304.0
+      ],
+      "verb": "take",
+      "noun": "drawer",
+      "score": 0.5513
+    },
+    {
+      "segment": [
+        248.0,
+        250.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.5138
+    },
+    {
+      "segment": [
+        54.0,
+        56.0
+      ],
+      "verb": "throw",
+      "noun": "skin",
+      "score": 0.5023
+    },
+    {
+      "segment": [
+        308.0,
+        311.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.4886
+    },
+    {
+      "segment": [
+        228.0,
+        241.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.4753
+    },
+    {
+      "segment": [
+        123.0,
+        125.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.4747
+    },
+    {
+      "segment": [
+        247.0,
+        249.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.4706
+    },
+    {
+      "segment": [
+        24.0,
+        28.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.4642
+    },
+    {
+      "segment": [
+        161.0,
+        163.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.4588
+    },
+    {
+      "segment": [
+        249.0,
+        267.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.4512
+    },
+    {
+      "segment": [
+        179.0,
+        181.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.4153
+    },
+    {
+      "segment": [
+        225.0,
+        227.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.3952
+    },
+    {
+      "segment": [
+        176.0,
+        178.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.3904
+    },
+    {
+      "segment": [
+        300.0,
+        302.0
+      ],
+      "verb": "take",
+      "noun": "drawer",
+      "score": 0.3828
+    },
+    {
+      "segment": [
+        217.0,
+        222.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.3583
+    },
+    {
+      "segment": [
+        293.0,
+        295.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.3575
+    },
+    {
+      "segment": [
+        77.0,
+        79.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.3502
+    },
+    {
+      "segment": [
+        29.0,
+        31.0
+      ],
+      "verb": "insert",
+      "noun": "onion",
+      "score": 0.3495
+    },
+    {
+      "segment": [
+        113.0,
+        115.0
+      ],
+      "verb": "peel",
+      "noun": "skin",
+      "score": 0.3393
+    },
+    {
+      "segment": [
+        78.0,
+        81.0
+      ],
+      "verb": "move",
+      "noun": "onion",
+      "score": 0.3376
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.3357
+    },
+    {
+      "segment": [
+        227.0,
+        234.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.3341
+    },
+    {
+      "segment": [
+        306.0,
+        308.0
+      ],
+      "verb": "close",
+      "noun": "box",
+      "score": 0.3303
+    },
+    {
+      "segment": [
+        178.0,
+        180.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.3292
+    },
+    {
+      "segment": [
+        226.0,
+        228.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.3283
+    },
+    {
+      "segment": [
+        286.0,
+        288.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.3173
+    },
+    {
+      "segment": [
+        295.0,
+        297.0
+      ],
+      "verb": "take",
+      "noun": "bag",
+      "score": 0.3125
+    },
+    {
+      "segment": [
+        218.0,
+        225.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.3124
+    },
+    {
+      "segment": [
+        141.0,
+        149.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.3083
+    },
+    {
+      "segment": [
+        50.0,
+        53.0
+      ],
+      "verb": "remove",
+      "noun": "onion",
+      "score": 0.307
+    },
+    {
+      "segment": [
+        180.0,
+        182.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.2964
+    },
+    {
+      "segment": [
+        177.0,
+        179.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.2927
+    },
+    {
+      "segment": [
+        67.0,
+        74.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.2815
+    },
+    {
+      "segment": [
+        50.0,
+        53.0
+      ],
+      "verb": "remove",
+      "noun": "skin",
+      "score": 0.2809
+    },
+    {
+      "segment": [
+        305.0,
+        307.0
+      ],
+      "verb": "check",
+      "noun": "package",
+      "score": 0.2807
+    },
+    {
+      "segment": [
+        301.0,
+        303.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.2708
+    },
+    {
+      "segment": [
+        196.0,
+        198.0
+      ],
+      "verb": "move",
+      "noun": "carrot",
+      "score": 0.2676
+    },
+    {
+      "segment": [
+        48.0,
+        51.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.2608
+    },
+    {
+      "segment": [
+        174.0,
+        177.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.2565
+    },
+    {
+      "segment": [
+        201.0,
+        207.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.2388
+    },
+    {
+      "segment": [
+        52.0,
+        54.0
+      ],
+      "verb": "remove",
+      "noun": "tomato",
+      "score": 0.2352
+    },
+    {
+      "segment": [
+        224.0,
+        226.0
+      ],
+      "verb": "remove",
+      "noun": "carrot",
+      "score": 0.2299
+    },
+    {
+      "segment": [
+        267.0,
+        273.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.2299
+    },
+    {
+      "segment": [
+        304.0,
+        306.0
+      ],
+      "verb": "close",
+      "noun": "fridge",
+      "score": 0.2264
+    },
+    {
+      "segment": [
+        29.0,
+        34.0
+      ],
+      "verb": "throw",
+      "noun": "onion",
+      "score": 0.2255
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "open",
+      "noun": "bin",
+      "score": 0.2236
+    },
+    {
+      "segment": [
+        36.0,
+        39.0
+      ],
+      "verb": "throw",
+      "noun": "onion",
+      "score": 0.2223
+    },
+    {
+      "segment": [
+        191.0,
+        195.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.2137
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "eat",
+      "noun": "water",
+      "score": 0.208
+    },
+    {
+      "segment": [
+        242.0,
+        246.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.2061
+    },
+    {
+      "segment": [
+        247.0,
+        249.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.1986
+    },
+    {
+      "segment": [
+        57.0,
+        59.0
+      ],
+      "verb": "take",
+      "noun": "knife",
+      "score": 0.1974
+    },
+    {
+      "segment": [
+        61.0,
+        65.0
+      ],
+      "verb": "throw",
+      "noun": "skin",
+      "score": 0.1958
+    },
+    {
+      "segment": [
+        82.0,
+        87.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.1934
+    },
+    {
+      "segment": [
+        288.0,
+        292.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.191
+    },
+    {
+      "segment": [
+        27.0,
+        30.0
+      ],
+      "verb": "remove",
+      "noun": "onion",
+      "score": 0.1873
+    },
+    {
+      "segment": [
+        11.0,
+        15.0
+      ],
+      "verb": "remove",
+      "noun": "onion",
+      "score": 0.1862
+    },
+    {
+      "segment": [
+        20.0,
+        24.0
+      ],
+      "verb": "remove",
+      "noun": "onion",
+      "score": 0.1831
+    },
+    {
+      "segment": [
+        27.0,
+        30.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.1787
+    },
+    {
+      "segment": [
+        75.0,
+        78.0
+      ],
+      "verb": "throw",
+      "noun": "bin",
+      "score": 0.1756
+    },
+    {
+      "segment": [
+        171.0,
+        175.0
+      ],
+      "verb": "cut",
+      "noun": "squash",
+      "score": 0.1732
+    },
+    {
+      "segment": [
+        186.0,
+        190.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.1677
+    },
+    {
+      "segment": [
+        210.0,
+        214.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.1672
+    },
+    {
+      "segment": [
+        175.0,
+        178.0
+      ],
+      "verb": "move",
+      "noun": "carrot",
+      "score": 0.1637
+    },
+    {
+      "segment": [
+        286.0,
+        289.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.162
+    },
+    {
+      "segment": [
+        20.0,
+        23.0
+      ],
+      "verb": "remove",
+      "noun": "skin",
+      "score": 0.1593
+    },
+    {
+      "segment": [
+        190.0,
+        193.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.1588
+    },
+    {
+      "segment": [
+        113.0,
+        116.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.1586
+    },
+    {
+      "segment": [
+        300.0,
+        303.0
+      ],
+      "verb": "take",
+      "noun": "sausage",
+      "score": 0.1567
+    },
+    {
+      "segment": [
+        291.0,
+        294.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.1536
+    },
+    {
+      "segment": [
+        287.0,
+        290.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.1515
+    },
+    {
+      "segment": [
+        86.0,
+        89.0
+      ],
+      "verb": "move",
+      "noun": "onion",
+      "score": 0.151
+    },
+    {
+      "segment": [
+        77.0,
+        79.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.1507
+    },
+    {
+      "segment": [
+        226.0,
+        228.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.1505
+    },
+    {
+      "segment": [
+        298.0,
+        300.0
+      ],
+      "verb": "close",
+      "noun": "freezer",
+      "score": 0.1504
+    },
+    {
+      "segment": [
+        112.0,
+        114.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.1492
+    },
+    {
+      "segment": [
+        113.0,
+        115.0
+      ],
+      "verb": "put",
+      "noun": "skin",
+      "score": 0.1474
+    },
+    {
+      "segment": [
+        226.0,
+        228.0
+      ],
+      "verb": "take",
+      "noun": "skin",
+      "score": 0.147
+    },
+    {
+      "segment": [
+        245.0,
+        247.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.1429
+    },
+    {
+      "segment": [
+        225.0,
+        227.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.1423
+    },
+    {
+      "segment": [
+        199.0,
+        202.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.142
+    },
+    {
+      "segment": [
+        194.0,
+        197.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.1409
+    },
+    {
+      "segment": [
+        55.0,
+        57.0
+      ],
+      "verb": "throw",
+      "noun": "package",
+      "score": 0.1406
+    },
+    {
+      "segment": [
+        225.0,
+        227.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.1372
+    },
+    {
+      "segment": [
+        17.0,
+        20.0
+      ],
+      "verb": "remove",
+      "noun": "onion",
+      "score": 0.1334
+    },
+    {
+      "segment": [
+        6.0,
+        9.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.1328
+    },
+    {
+      "segment": [
+        39.0,
+        42.0
+      ],
+      "verb": "throw",
+      "noun": "food",
+      "score": 0.1314
+    },
+    {
+      "segment": [
+        214.0,
+        217.0
+      ],
+      "verb": "cut",
+      "noun": "squash",
+      "score": 0.1305
+    },
+    {
+      "segment": [
+        240.0,
+        243.0
+      ],
+      "verb": "cut",
+      "noun": "squash",
+      "score": 0.1304
+    },
+    {
+      "segment": [
+        297.0,
+        300.0
+      ],
+      "verb": "open",
+      "noun": "machine:washing",
+      "score": 0.1302
+    },
+    {
+      "segment": [
+        251.0,
+        254.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.1297
+    },
+    {
+      "segment": [
+        246.0,
+        248.0
+      ],
+      "verb": "put",
+      "noun": "skin",
+      "score": 0.1295
+    },
+    {
+      "segment": [
+        168.0,
+        171.0
+      ],
+      "verb": "cut",
+      "noun": "squash",
+      "score": 0.1285
+    },
+    {
+      "segment": [
+        197.0,
+        200.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.1268
+    },
+    {
+      "segment": [
+        207.0,
+        210.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.1259
+    },
+    {
+      "segment": [
+        289.0,
+        292.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.1257
+    },
+    {
+      "segment": [
+        77.0,
+        79.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.1256
+    },
+    {
+      "segment": [
+        284.0,
+        286.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.1254
+    },
+    {
+      "segment": [
+        112.0,
+        114.0
+      ],
+      "verb": "take",
+      "noun": "rubbish",
+      "score": 0.1233
+    },
+    {
+      "segment": [
+        280.0,
+        282.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.1223
+    },
+    {
+      "segment": [
+        107.0,
+        109.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.1218
+    },
+    {
+      "segment": [
+        113.0,
+        115.0
+      ],
+      "verb": "remove",
+      "noun": "skin",
+      "score": 0.1204
+    },
+    {
+      "segment": [
+        295.0,
+        297.0
+      ],
+      "verb": "take",
+      "noun": "package",
+      "score": 0.1199
+    },
+    {
+      "segment": [
+        293.0,
+        295.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.1193
+    },
+    {
+      "segment": [
+        227.0,
+        229.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.1176
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "take",
+      "noun": "skin",
+      "score": 0.117
+    },
+    {
+      "segment": [
+        279.0,
+        281.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.1166
+    },
+    {
+      "segment": [
+        278.0,
+        280.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.1157
+    },
+    {
+      "segment": [
+        54.0,
+        56.0
+      ],
+      "verb": "throw",
+      "noun": "seed",
+      "score": 0.1153
+    },
+    {
+      "segment": [
+        300.0,
+        302.0
+      ],
+      "verb": "search",
+      "noun": "drawer",
+      "score": 0.1148
+    },
+    {
+      "segment": [
+        65.0,
+        67.0
+      ],
+      "verb": "put",
+      "noun": "knife",
+      "score": 0.1133
+    },
+    {
+      "segment": [
+        301.0,
+        303.0
+      ],
+      "verb": "take",
+      "noun": "bag",
+      "score": 0.113
+    },
+    {
+      "segment": [
+        78.0,
+        80.0
+      ],
+      "verb": "move",
+      "noun": "tomato",
+      "score": 0.112
+    },
+    {
+      "segment": [
+        306.0,
+        308.0
+      ],
+      "verb": "close",
+      "noun": "package",
+      "score": 0.112
+    },
+    {
+      "segment": [
+        196.0,
+        198.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.1115
+    },
+    {
+      "segment": [
+        159.0,
+        161.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.111
+    },
+    {
+      "segment": [
+        285.0,
+        287.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.1107
+    },
+    {
+      "segment": [
+        178.0,
+        180.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.11
+    },
+    {
+      "segment": [
+        286.0,
+        288.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.11
+    },
+    {
+      "segment": [
+        305.0,
+        307.0
+      ],
+      "verb": "look",
+      "noun": "package",
+      "score": 0.1093
+    },
+    {
+      "segment": [
+        285.0,
+        287.0
+      ],
+      "verb": "wash",
+      "noun": "pepper",
+      "score": 0.1091
+    },
+    {
+      "segment": [
+        292.0,
+        294.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.1079
+    },
+    {
+      "segment": [
+        160.0,
+        162.0
+      ],
+      "verb": "throw",
+      "noun": "onion",
+      "score": 0.1068
+    },
+    {
+      "segment": [
+        167.0,
+        169.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.1066
+    },
+    {
+      "segment": [
+        279.0,
+        281.0
+      ],
+      "verb": "put",
+      "noun": "skin",
+      "score": 0.1061
+    },
+    {
+      "segment": [
+        259.0,
+        261.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.1056
+    },
+    {
+      "segment": [
+        246.0,
+        248.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.1055
+    },
+    {
+      "segment": [
+        160.0,
+        162.0
+      ],
+      "verb": "insert",
+      "noun": "onion",
+      "score": 0.1053
+    },
+    {
+      "segment": [
+        178.0,
+        180.0
+      ],
+      "verb": "take",
+      "noun": "skin",
+      "score": 0.1053
+    },
+    {
+      "segment": [
+        25.0,
+        27.0
+      ],
+      "verb": "move",
+      "noun": "onion",
+      "score": 0.1047
+    },
+    {
+      "segment": [
+        61.0,
+        63.0
+      ],
+      "verb": "put",
+      "noun": "knife",
+      "score": 0.1047
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "gather",
+      "noun": "onion",
+      "score": 0.1044
+    },
+    {
+      "segment": [
+        296.0,
+        298.0
+      ],
+      "verb": "transition",
+      "noun": "freezer",
+      "score": 0.1044
+    },
+    {
+      "segment": [
+        285.0,
+        287.0
+      ],
+      "verb": "remove",
+      "noun": "pepper",
+      "score": 0.1038
+    },
+    {
+      "segment": [
+        296.0,
+        298.0
+      ],
+      "verb": "close",
+      "noun": "freezer",
+      "score": 0.1031
+    },
+    {
+      "segment": [
+        113.0,
+        115.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.103
+    },
+    {
+      "segment": [
+        260.0,
+        262.0
+      ],
+      "verb": "cut",
+      "noun": "garlic",
+      "score": 0.1029
+    },
+    {
+      "segment": [
+        196.0,
+        198.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.1019
+    },
+    {
+      "segment": [
+        50.0,
+        52.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.1016
+    },
+    {
+      "segment": [
+        278.0,
+        280.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.1016
+    },
+    {
+      "segment": [
+        55.0,
+        57.0
+      ],
+      "verb": "take",
+      "noun": "rubbish",
+      "score": 0.1013
+    },
+    {
+      "segment": [
+        309.0,
+        311.0
+      ],
+      "verb": "move",
+      "noun": "carrot",
+      "score": 0.1008
+    },
+    {
+      "segment": [
+        78.0,
+        80.0
+      ],
+      "verb": "insert",
+      "noun": "onion",
+      "score": 0.1007
+    },
+    {
+      "segment": [
+        179.0,
+        181.0
+      ],
+      "verb": "move",
+      "noun": "onion",
+      "score": 0.1005
+    },
+    {
+      "segment": [
+        296.0,
+        298.0
+      ],
+      "verb": "open",
+      "noun": "fridge",
+      "score": 0.1004
+    },
+    {
+      "segment": [
+        295.0,
+        297.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.1
+    },
+    {
+      "segment": [
+        286.0,
+        288.0
+      ],
+      "verb": "put",
+      "noun": "skin",
+      "score": 0.0994
+    },
+    {
+      "segment": [
+        308.0,
+        310.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.0994
+    },
+    {
+      "segment": [
+        221.0,
+        223.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.0993
+    },
+    {
+      "segment": [
+        273.0,
+        275.0
+      ],
+      "verb": "cut",
+      "noun": "chilli",
+      "score": 0.0993
+    },
+    {
+      "segment": [
+        224.0,
+        226.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.0991
+    },
+    {
+      "segment": [
+        180.0,
+        182.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.099
+    },
+    {
+      "segment": [
+        284.0,
+        286.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.0987
+    },
+    {
+      "segment": [
+        78.0,
+        80.0
+      ],
+      "verb": "insert",
+      "noun": "tomato",
+      "score": 0.0985
+    },
+    {
+      "segment": [
+        246.0,
+        248.0
+      ],
+      "verb": "insert",
+      "noun": "onion",
+      "score": 0.0982
+    },
+    {
+      "segment": [
+        49.0,
+        51.0
+      ],
+      "verb": "cut",
+      "noun": "tomato",
+      "score": 0.0981
+    },
+    {
+      "segment": [
+        81.0,
+        83.0
+      ],
+      "verb": "turn",
+      "noun": "onion",
+      "score": 0.0981
+    },
+    {
+      "segment": [
+        180.0,
+        182.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.0981
+    },
+    {
+      "segment": [
+        285.0,
+        287.0
+      ],
+      "verb": "wash",
+      "noun": "carrot",
+      "score": 0.098
+    },
+    {
+      "segment": [
+        292.0,
+        294.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.0979
+    },
+    {
+      "segment": [
+        44.0,
+        46.0
+      ],
+      "verb": "throw",
+      "noun": "food",
+      "score": 0.0976
+    },
+    {
+      "segment": [
+        224.0,
+        226.0
+      ],
+      "verb": "take",
+      "noun": "carrot",
+      "score": 0.0976
+    },
+    {
+      "segment": [
+        179.0,
+        181.0
+      ],
+      "verb": "put",
+      "noun": "skin",
+      "score": 0.0975
+    },
+    {
+      "segment": [
+        179.0,
+        181.0
+      ],
+      "verb": "insert",
+      "noun": "onion",
+      "score": 0.0975
+    },
+    {
+      "segment": [
+        52.0,
+        54.0
+      ],
+      "verb": "check",
+      "noun": "tomato",
+      "score": 0.0972
+    },
+    {
+      "segment": [
+        107.0,
+        109.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.0965
+    },
+    {
+      "segment": [
+        274.0,
+        276.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.0965
+    },
+    {
+      "segment": [
+        52.0,
+        54.0
+      ],
+      "verb": "take",
+      "noun": "tomato",
+      "score": 0.0961
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "throw",
+      "noun": "bin",
+      "score": 0.0959
+    },
+    {
+      "segment": [
+        63.0,
+        65.0
+      ],
+      "verb": "throw",
+      "noun": "bin",
+      "score": 0.0959
+    },
+    {
+      "segment": [
+        179.0,
+        181.0
+      ],
+      "verb": "put",
+      "noun": "carrot",
+      "score": 0.0956
+    },
+    {
+      "segment": [
+        113.0,
+        115.0
+      ],
+      "verb": "remove",
+      "noun": "onion",
+      "score": 0.0955
+    },
+    {
+      "segment": [
+        248.0,
+        250.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.0955
+    },
+    {
+      "segment": [
+        281.0,
+        283.0
+      ],
+      "verb": "cut",
+      "noun": "onion",
+      "score": 0.0955
+    },
+    {
+      "segment": [
+        55.0,
+        57.0
+      ],
+      "verb": "throw",
+      "noun": "lid",
+      "score": 0.0954
+    },
+    {
+      "segment": [
+        280.0,
+        282.0
+      ],
+      "verb": "take",
+      "noun": "skin",
+      "score": 0.0954
+    },
+    {
+      "segment": [
+        42.0,
+        44.0
+      ],
+      "verb": "throw",
+      "noun": "pepper",
+      "score": 0.0953
+    },
+    {
+      "segment": [
+        308.0,
+        310.0
+      ],
+      "verb": "drop",
+      "noun": "carrot",
+      "score": 0.0953
+    },
+    {
+      "segment": [
+        285.0,
+        287.0
+      ],
+      "verb": "remove",
+      "noun": "carrot",
+      "score": 0.0952
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "open",
+      "noun": "rubbish",
+      "score": 0.0951
+    },
+    {
+      "segment": [
+        104.0,
+        106.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.0951
+    },
+    {
+      "segment": [
+        163.0,
+        165.0
+      ],
+      "verb": "sort",
+      "noun": "pepper",
+      "score": 0.095
+    },
+    {
+      "segment": [
+        42.0,
+        44.0
+      ],
+      "verb": "close",
+      "noun": "rubbish",
+      "score": 0.0949
+    },
+    {
+      "segment": [
+        215.0,
+        217.0
+      ],
+      "verb": "cut",
+      "noun": "ginger",
+      "score": 0.0949
+    },
+    {
+      "segment": [
+        279.0,
+        281.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.0949
+    },
+    {
+      "segment": [
+        302.0,
+        304.0
+      ],
+      "verb": "pull",
+      "noun": "drawer",
+      "score": 0.0949
+    },
+    {
+      "segment": [
+        177.0,
+        179.0
+      ],
+      "verb": "insert",
+      "noun": "carrot",
+      "score": 0.0948
+    },
+    {
+      "segment": [
+        178.0,
+        180.0
+      ],
+      "verb": "move",
+      "noun": "carrot",
+      "score": 0.0946
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "gather",
+      "noun": "skin",
+      "score": 0.0944
+    },
+    {
+      "segment": [
+        167.0,
+        169.0
+      ],
+      "verb": "move",
+      "noun": "pepper",
+      "score": 0.0944
+    },
+    {
+      "segment": [
+        157.0,
+        159.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.0943
+    },
+    {
+      "segment": [
+        176.0,
+        178.0
+      ],
+      "verb": "take",
+      "noun": "bag",
+      "score": 0.0942
+    },
+    {
+      "segment": [
+        104.0,
+        106.0
+      ],
+      "verb": "put",
+      "noun": "onion",
+      "score": 0.0941
+    },
+    {
+      "segment": [
+        161.0,
+        163.0
+      ],
+      "verb": "move",
+      "noun": "onion",
+      "score": 0.094
+    },
+    {
+      "segment": [
+        46.0,
+        48.0
+      ],
+      "verb": "throw",
+      "noun": "onion",
+      "score": 0.0937
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "open",
+      "noun": "package",
+      "score": 0.0937
+    },
+    {
+      "segment": [
+        247.0,
+        249.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.0937
+    },
+    {
+      "segment": [
+        78.0,
+        80.0
+      ],
+      "verb": "put",
+      "noun": "tomato",
+      "score": 0.0935
+    },
+    {
+      "segment": [
+        123.0,
+        125.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.0935
+    },
+    {
+      "segment": [
+        65.0,
+        67.0
+      ],
+      "verb": "put",
+      "noun": "skin",
+      "score": 0.0933
+    },
+    {
+      "segment": [
+        87.0,
+        89.0
+      ],
+      "verb": "insert",
+      "noun": "onion",
+      "score": 0.0933
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "check",
+      "noun": "water",
+      "score": 0.0932
+    },
+    {
+      "segment": [
+        163.0,
+        165.0
+      ],
+      "verb": "insert",
+      "noun": "pepper",
+      "score": 0.0931
+    },
+    {
+      "segment": [
+        310.0,
+        312.0
+      ],
+      "verb": "take",
+      "noun": "sausage",
+      "score": 0.093
+    },
+    {
+      "segment": [
+        78.0,
+        80.0
+      ],
+      "verb": "move",
+      "noun": "pepper",
+      "score": 0.0929
+    },
+    {
+      "segment": [
+        132.0,
+        134.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.0928
+    },
+    {
+      "segment": [
+        248.0,
+        250.0
+      ],
+      "verb": "put",
+      "noun": "pepper",
+      "score": 0.0927
+    },
+    {
+      "segment": [
+        263.0,
+        265.0
+      ],
+      "verb": "cut",
+      "noun": "garlic",
+      "score": 0.0926
+    },
+    {
+      "segment": [
+        282.0,
+        284.0
+      ],
+      "verb": "cut",
+      "noun": "squash",
+      "score": 0.0926
+    },
+    {
+      "segment": [
+        97.0,
+        99.0
+      ],
+      "verb": "take",
+      "noun": "onion",
+      "score": 0.0922
+    },
+    {
+      "segment": [
+        248.0,
+        250.0
+      ],
+      "verb": "cut",
+      "noun": "carrot",
+      "score": 0.0922
+    },
+    {
+      "segment": [
+        296.0,
+        298.0
+      ],
+      "verb": "transition",
+      "noun": "fridge",
+      "score": 0.0922
+    },
+    {
+      "segment": [
+        210.0,
+        212.0
+      ],
+      "verb": "cut",
+      "noun": "squash",
+      "score": 0.0921
+    },
+    {
+      "segment": [
+        145.0,
+        147.0
+      ],
+      "verb": "throw",
+      "noun": "onion",
+      "score": 0.092
+    },
+    {
+      "segment": [
+        306.0,
+        308.0
+      ],
+      "verb": "check",
+      "noun": "box",
+      "score": 0.0919
+    },
+    {
+      "segment": [
+        83.0,
+        85.0
+      ],
+      "verb": "turn",
+      "noun": "onion",
+      "score": 0.0918
+    },
+    {
+      "segment": [
+        238.0,
+        240.0
+      ],
+      "verb": "cut",
+      "noun": "garlic",
+      "score": 0.0918
+    },
+    {
+      "segment": [
+        45.0,
+        47.0
+      ],
+      "verb": "throw",
+      "noun": "seed",
+      "score": 0.0917
+    },
+    {
+      "segment": [
+        80.0,
+        82.0
+      ],
+      "verb": "take",
+      "noun": "knife",
+      "score": 0.0917
+    },
+    {
+      "segment": [
+        136.0,
+        138.0
+      ],
+      "verb": "mix",
+      "noun": "onion",
+      "score": 0.0917
+    },
+    {
+      "segment": [
+        172.0,
+        174.0
+      ],
+      "verb": "cut",
+      "noun": "pepper",
+      "score": 0.0917
+    },
+    {
+      "segment": [
+        296.0,
+        298.0
+      ],
+      "verb": "close",
+      "noun": "fridge",
+      "score": 0.0917
+    },
+    {
+      "segment": [
+        305.0,
+        307.0
+      ],
+      "verb": "wait",
+      "noun": "package",
+      "score": 0.0917
+    },
+    {
+      "segment": [
+        36.0,
+        38.0
+      ],
+      "verb": "close",
+      "noun": "skin",
+      "score": 0.0916
+    },
+    {
+      "segment": [
+        66.0,
+        68.0
+      ],
+      "verb": "cut",
+      "noun": "knife",
+      "score": 0.0916
+    },
+    {
+      "segment": [
+        86.0,
+        88.0
+      ],
+      "verb": "sort",
+      "noun": "onion",
+      "score": 0.0914
+    },
+    {
+      "segment": [
+        50.0,
+        52.0
+      ],
+      "verb": "open",
+      "noun": "onion",
+      "score": 0.0913
+    },
+    {
+      "segment": [
+        45.0,
+        47.0
+      ],
+      "verb": "remove",
+      "noun": "rubbish",
+      "score": 0.0912
+    },
+    {
+      "segment": [
+        138.0,
+        140.0
+      ],
+      "verb": "mix",
+      "noun": "onion",
+      "score": 0.0912
+    },
+    {
+      "segment": [
+        4.0,
+        6.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.0911
+    },
+    {
+      "segment": [
+        130.0,
+        132.0
+      ],
+      "verb": "peel",
+      "noun": "onion",
+      "score": 0.0911
+    },
+    {
+      "segment": [
+        286.0,
+        288.0
+      ],
+      "verb": "insert",
+      "noun": "skin",
+      "score": 0.0911
+    },
+    {
+      "segment": [
+        48.0,
+        50.0
+      ],
+      "verb": "take",
+      "noun": "pepper",
+      "score": 0.091
+    },
+    {
+      "segment": [
+        285.0,
+        287.0
+      ],
+      "verb": "cut",
+      "noun": "knife",
+      "score": 0.091
+    },
+    {
+      "segment": [
+        36.0,
+        38.0
+      ],
+      "verb": "close",
+      "noun": "onion",
+      "score": 0.0908
+    },
+    {
+      "segment": [
+        62.0,
+        64.0
+      ],
+      "verb": "throw",
+      "noun": "food",
+      "score": 0.0908
+    },
+    {
+      "segment": [
+        125.0,
+        127.0
+      ],
+      "verb": "mix",
+      "noun": "onion",
+      "score": 0.0908
+    },
+    {
+      "segment": [
+        292.0,
+        294.0
+      ],
+      "verb": "insert",
+      "noun": "onion",
+      "score": 0.0908
+    },
+    {
+      "segment": [
+        294.0,
+        296.0
+      ],
+      "verb": "throw",
+      "noun": "knife",
+      "score": 0.0908
+    },
+    {
+      "segment": [
+        74.0,
+        76.0
+      ],
+      "verb": "throw",
+      "noun": "knife",
+      "score": 0.0906
+    },
+    {
+      "segment": [
+        206.0,
+        208.0
+      ],
+      "verb": "cut",
+      "noun": "squash",
+      "score": 0.0906
+    }
+  ],
+  "highlights": [
+    {
+      "segment": [
+        28.0,
+        32.2
+      ]
+    },
+    {
+      "segment": [
+        33.0,
+        37.2
+      ]
+    },
+    {
+      "segment": [
+        56.0,
+        60.2
+      ]
+    },
+    {
+      "segment": [
+        61.0,
+        65.2
+      ]
+    },
+    {
+      "segment": [
+        74.0,
+        78.2
+      ]
+    },
+    {
+      "segment": [
+        114.0,
+        118.2
+      ]
+    },
+    {
+      "segment": [
+        171.0,
+        175.2
+      ]
+    },
+    {
+      "segment": [
+        223.0,
+        227.2
+      ]
+    },
+    {
+      "segment": [
+        294.0,
+        298.2
+      ]
+    },
+    {
+      "segment": [
+        299.0,
+        303.2
+      ]
+    },
+    {
+      "segment": [
+        307.0,
+        311.2
+      ]
+    }
+  ]
+}

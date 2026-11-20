@@ -1,0 +1,1249 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "P13_02",
+  "duration_sec": 69.16,
+  "label": {
+    "name": "cooking",
+    "score": 0.9157
+  },
+  "actions": [
+    {
+      "segment": [
+        37.0,
+        40.0
+      ],
+      "verb": "take",
+      "noun": "spoon",
+      "score": 0.9527
+    },
+    {
+      "segment": [
+        4.0,
+        7.0
+      ],
+      "verb": "open",
+      "noun": "cupboard",
+      "score": 0.9502
+    },
+    {
+      "segment": [
+        35.0,
+        37.0
+      ],
+      "verb": "open",
+      "noun": "drawer",
+      "score": 0.9428
+    },
+    {
+      "segment": [
+        56.0,
+        58.0
+      ],
+      "verb": "take",
+      "noun": "bag",
+      "score": 0.934
+    },
+    {
+      "segment": [
+        0.0,
+        4.0
+      ],
+      "verb": "take",
+      "noun": "glass",
+      "score": 0.8944
+    },
+    {
+      "segment": [
+        41.0,
+        46.0
+      ],
+      "verb": "mix",
+      "noun": "pasta",
+      "score": 0.8782
+    },
+    {
+      "segment": [
+        11.0,
+        14.0
+      ],
+      "verb": "close",
+      "noun": "cupboard",
+      "score": 0.8657
+    },
+    {
+      "segment": [
+        27.0,
+        33.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.8585
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "take",
+      "noun": "fork",
+      "score": 0.8339
+    },
+    {
+      "segment": [
+        26.0,
+        33.0
+      ],
+      "verb": "insert",
+      "noun": "pasta",
+      "score": 0.8167
+    },
+    {
+      "segment": [
+        59.0,
+        64.0
+      ],
+      "verb": "throw",
+      "noun": "package",
+      "score": 0.8085
+    },
+    {
+      "segment": [
+        46.0,
+        54.0
+      ],
+      "verb": "mix",
+      "noun": "pasta",
+      "score": 0.7992
+    },
+    {
+      "segment": [
+        53.0,
+        57.0
+      ],
+      "verb": "put",
+      "noun": "spoon",
+      "score": 0.7969
+    },
+    {
+      "segment": [
+        59.0,
+        65.0
+      ],
+      "verb": "throw",
+      "noun": "bag",
+      "score": 0.783
+    },
+    {
+      "segment": [
+        21.0,
+        26.0
+      ],
+      "verb": "insert",
+      "noun": "pasta",
+      "score": 0.7321
+    },
+    {
+      "segment": [
+        39.0,
+        41.0
+      ],
+      "verb": "close",
+      "noun": "drawer",
+      "score": 0.6849
+    },
+    {
+      "segment": [
+        19.0,
+        22.0
+      ],
+      "verb": "take",
+      "noun": "pasta",
+      "score": 0.6828
+    },
+    {
+      "segment": [
+        45.0,
+        54.0
+      ],
+      "verb": "mix",
+      "noun": "spoon",
+      "score": 0.6282
+    },
+    {
+      "segment": [
+        57.0,
+        60.0
+      ],
+      "verb": "put",
+      "noun": "bag",
+      "score": 0.6114
+    },
+    {
+      "segment": [
+        57.0,
+        60.0
+      ],
+      "verb": "fold",
+      "noun": "bag",
+      "score": 0.5994
+    },
+    {
+      "segment": [
+        21.0,
+        26.0
+      ],
+      "verb": "pour",
+      "noun": "pasta",
+      "score": 0.5988
+    },
+    {
+      "segment": [
+        65.0,
+        68.0
+      ],
+      "verb": "put",
+      "noun": "fork",
+      "score": 0.5109
+    },
+    {
+      "segment": [
+        7.0,
+        9.0
+      ],
+      "verb": "take",
+      "noun": "bag",
+      "score": 0.5012
+    },
+    {
+      "segment": [
+        19.0,
+        22.0
+      ],
+      "verb": "take",
+      "noun": "corn",
+      "score": 0.4911
+    },
+    {
+      "segment": [
+        40.0,
+        43.0
+      ],
+      "verb": "insert",
+      "noun": "pasta",
+      "score": 0.4427
+    },
+    {
+      "segment": [
+        65.0,
+        69.0
+      ],
+      "verb": "transition",
+      "noun": "kitchen",
+      "score": 0.3746
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "pour",
+      "noun": "pasta",
+      "score": 0.3509
+    },
+    {
+      "segment": [
+        24.0,
+        27.0
+      ],
+      "verb": "pour",
+      "noun": "cereal",
+      "score": 0.3394
+    },
+    {
+      "segment": [
+        64.0,
+        67.0
+      ],
+      "verb": "take",
+      "noun": "plate",
+      "score": 0.3249
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "put",
+      "noun": "bag",
+      "score": 0.3212
+    },
+    {
+      "segment": [
+        36.0,
+        38.0
+      ],
+      "verb": "take",
+      "noun": "cutlery",
+      "score": 0.3194
+    },
+    {
+      "segment": [
+        65.0,
+        68.0
+      ],
+      "verb": "take",
+      "noun": "fork",
+      "score": 0.3172
+    },
+    {
+      "segment": [
+        26.0,
+        28.0
+      ],
+      "verb": "take",
+      "noun": "noodle",
+      "score": 0.2726
+    },
+    {
+      "segment": [
+        18.0,
+        20.0
+      ],
+      "verb": "move",
+      "noun": "pasta",
+      "score": 0.2708
+    },
+    {
+      "segment": [
+        46.0,
+        52.0
+      ],
+      "verb": "mix",
+      "noun": "oatmeal",
+      "score": 0.2552
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "move",
+      "noun": "bread",
+      "score": 0.2515
+    },
+    {
+      "segment": [
+        25.0,
+        27.0
+      ],
+      "verb": "pour",
+      "noun": "salt",
+      "score": 0.2469
+    },
+    {
+      "segment": [
+        40.0,
+        42.0
+      ],
+      "verb": "insert",
+      "noun": "spoon",
+      "score": 0.2425
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "remove",
+      "noun": "stock",
+      "score": 0.228
+    },
+    {
+      "segment": [
+        17.0,
+        19.0
+      ],
+      "verb": "insert",
+      "noun": "pasta",
+      "score": 0.2208
+    },
+    {
+      "segment": [
+        34.0,
+        36.0
+      ],
+      "verb": "close",
+      "noun": "cupboard",
+      "score": 0.2162
+    },
+    {
+      "segment": [
+        3.0,
+        5.0
+      ],
+      "verb": "open",
+      "noun": "kitchen",
+      "score": 0.213
+    },
+    {
+      "segment": [
+        33.0,
+        35.0
+      ],
+      "verb": "check",
+      "noun": "alarm",
+      "score": 0.2076
+    },
+    {
+      "segment": [
+        15.0,
+        17.0
+      ],
+      "verb": "open",
+      "noun": "package",
+      "score": 0.2038
+    },
+    {
+      "segment": [
+        10.0,
+        12.0
+      ],
+      "verb": "insert",
+      "noun": "cereal",
+      "score": 0.1989
+    },
+    {
+      "segment": [
+        65.0,
+        69.0
+      ],
+      "verb": "put",
+      "noun": "kitchen",
+      "score": 0.1936
+    },
+    {
+      "segment": [
+        65.0,
+        69.0
+      ],
+      "verb": "transition",
+      "noun": "fork",
+      "score": 0.1738
+    },
+    {
+      "segment": [
+        60.0,
+        63.0
+      ],
+      "verb": "insert",
+      "noun": "package",
+      "score": 0.1717
+    },
+    {
+      "segment": [
+        39.0,
+        41.0
+      ],
+      "verb": "close",
+      "noun": "spoon",
+      "score": 0.1629
+    },
+    {
+      "segment": [
+        62.0,
+        65.0
+      ],
+      "verb": "take",
+      "noun": "bag",
+      "score": 0.1585
+    },
+    {
+      "segment": [
+        11.0,
+        13.0
+      ],
+      "verb": "put",
+      "noun": "cupboard",
+      "score": 0.1577
+    },
+    {
+      "segment": [
+        61.0,
+        64.0
+      ],
+      "verb": "insert",
+      "noun": "bag",
+      "score": 0.1541
+    },
+    {
+      "segment": [
+        27.0,
+        30.0
+      ],
+      "verb": "put",
+      "noun": "noodle",
+      "score": 0.1526
+    },
+    {
+      "segment": [
+        64.0,
+        67.0
+      ],
+      "verb": "take",
+      "noun": "kitchen",
+      "score": 0.1517
+    },
+    {
+      "segment": [
+        21.0,
+        23.0
+      ],
+      "verb": "insert",
+      "noun": "corn",
+      "score": 0.1465
+    },
+    {
+      "segment": [
+        17.0,
+        20.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.1445
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "put",
+      "noun": "glass",
+      "score": 0.1391
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "pour",
+      "noun": "cereal",
+      "score": 0.1391
+    },
+    {
+      "segment": [
+        44.0,
+        47.0
+      ],
+      "verb": "mix",
+      "noun": "food",
+      "score": 0.1378
+    },
+    {
+      "segment": [
+        24.0,
+        27.0
+      ],
+      "verb": "insert",
+      "noun": "cereal",
+      "score": 0.1359
+    },
+    {
+      "segment": [
+        63.0,
+        65.0
+      ],
+      "verb": "close",
+      "noun": "bag",
+      "score": 0.1349
+    },
+    {
+      "segment": [
+        25.0,
+        28.0
+      ],
+      "verb": "insert",
+      "noun": "oatmeal",
+      "score": 0.1336
+    },
+    {
+      "segment": [
+        42.0,
+        45.0
+      ],
+      "verb": "mix",
+      "noun": "soup",
+      "score": 0.1332
+    },
+    {
+      "segment": [
+        29.0,
+        32.0
+      ],
+      "verb": "pour",
+      "noun": "pasta",
+      "score": 0.1331
+    },
+    {
+      "segment": [
+        53.0,
+        56.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.1318
+    },
+    {
+      "segment": [
+        59.0,
+        62.0
+      ],
+      "verb": "open",
+      "noun": "bag",
+      "score": 0.1295
+    },
+    {
+      "segment": [
+        45.0,
+        47.0
+      ],
+      "verb": "mix",
+      "noun": "mixture",
+      "score": 0.1251
+    },
+    {
+      "segment": [
+        52.0,
+        54.0
+      ],
+      "verb": "mix",
+      "noun": "sauce",
+      "score": 0.1173
+    },
+    {
+      "segment": [
+        18.0,
+        20.0
+      ],
+      "verb": "pour",
+      "noun": "pasta",
+      "score": 0.1159
+    },
+    {
+      "segment": [
+        7.0,
+        9.0
+      ],
+      "verb": "take",
+      "noun": "pasta",
+      "score": 0.1142
+    },
+    {
+      "segment": [
+        60.0,
+        62.0
+      ],
+      "verb": "open",
+      "noun": "package",
+      "score": 0.1136
+    },
+    {
+      "segment": [
+        31.0,
+        33.0
+      ],
+      "verb": "filter",
+      "noun": "pasta",
+      "score": 0.1129
+    },
+    {
+      "segment": [
+        24.0,
+        26.0
+      ],
+      "verb": "pour",
+      "noun": "noodle",
+      "score": 0.1128
+    },
+    {
+      "segment": [
+        40.0,
+        42.0
+      ],
+      "verb": "insert",
+      "noun": "sauce",
+      "score": 0.1108
+    },
+    {
+      "segment": [
+        25.0,
+        27.0
+      ],
+      "verb": "insert",
+      "noun": "salt",
+      "score": 0.1094
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "take",
+      "noun": "plate",
+      "score": 0.1093
+    },
+    {
+      "segment": [
+        26.0,
+        28.0
+      ],
+      "verb": "take",
+      "noun": "oatmeal",
+      "score": 0.1093
+    },
+    {
+      "segment": [
+        27.0,
+        29.0
+      ],
+      "verb": "put",
+      "noun": "cereal",
+      "score": 0.1084
+    },
+    {
+      "segment": [
+        1.0,
+        3.0
+      ],
+      "verb": "take",
+      "noun": "bottle",
+      "score": 0.1076
+    },
+    {
+      "segment": [
+        26.0,
+        28.0
+      ],
+      "verb": "take",
+      "noun": "pasta",
+      "score": 0.1072
+    },
+    {
+      "segment": [
+        1.0,
+        3.0
+      ],
+      "verb": "take",
+      "noun": "cup",
+      "score": 0.107
+    },
+    {
+      "segment": [
+        19.0,
+        21.0
+      ],
+      "verb": "take",
+      "noun": "noodle",
+      "score": 0.1053
+    },
+    {
+      "segment": [
+        58.0,
+        60.0
+      ],
+      "verb": "wrap",
+      "noun": "bag",
+      "score": 0.1053
+    },
+    {
+      "segment": [
+        23.0,
+        25.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.1052
+    },
+    {
+      "segment": [
+        51.0,
+        53.0
+      ],
+      "verb": "mix",
+      "noun": "stock",
+      "score": 0.1023
+    },
+    {
+      "segment": [
+        20.0,
+        22.0
+      ],
+      "verb": "remove",
+      "noun": "corn",
+      "score": 0.1021
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.1017
+    },
+    {
+      "segment": [
+        25.0,
+        27.0
+      ],
+      "verb": "pour",
+      "noun": "oatmeal",
+      "score": 0.1013
+    },
+    {
+      "segment": [
+        41.0,
+        43.0
+      ],
+      "verb": "put",
+      "noun": "pasta",
+      "score": 0.1013
+    },
+    {
+      "segment": [
+        7.0,
+        9.0
+      ],
+      "verb": "take",
+      "noun": "flour",
+      "score": 0.0997
+    },
+    {
+      "segment": [
+        36.0,
+        38.0
+      ],
+      "verb": "take",
+      "noun": "opener:bottle",
+      "score": 0.0996
+    },
+    {
+      "segment": [
+        23.0,
+        25.0
+      ],
+      "verb": "insert",
+      "noun": "noodle",
+      "score": 0.0994
+    },
+    {
+      "segment": [
+        65.0,
+        67.0
+      ],
+      "verb": "put",
+      "noun": "plate",
+      "score": 0.0993
+    },
+    {
+      "segment": [
+        11.0,
+        13.0
+      ],
+      "verb": "insert",
+      "noun": "cupboard",
+      "score": 0.0988
+    },
+    {
+      "segment": [
+        39.0,
+        41.0
+      ],
+      "verb": "close",
+      "noun": "cupboard",
+      "score": 0.0988
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "move",
+      "noun": "pasta",
+      "score": 0.0979
+    },
+    {
+      "segment": [
+        57.0,
+        59.0
+      ],
+      "verb": "move",
+      "noun": "bag",
+      "score": 0.0977
+    },
+    {
+      "segment": [
+        67.0,
+        69.0
+      ],
+      "verb": "dry",
+      "noun": "kitchen",
+      "score": 0.0974
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "insert",
+      "noun": "bag",
+      "score": 0.0973
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "insert",
+      "noun": "stock",
+      "score": 0.0973
+    },
+    {
+      "segment": [
+        37.0,
+        39.0
+      ],
+      "verb": "take",
+      "noun": "ladle",
+      "score": 0.0973
+    },
+    {
+      "segment": [
+        21.0,
+        23.0
+      ],
+      "verb": "insert",
+      "noun": "noodle",
+      "score": 0.0972
+    },
+    {
+      "segment": [
+        36.0,
+        38.0
+      ],
+      "verb": "take",
+      "noun": "scissors",
+      "score": 0.0968
+    },
+    {
+      "segment": [
+        26.0,
+        28.0
+      ],
+      "verb": "insert",
+      "noun": "noodle",
+      "score": 0.0965
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "take",
+      "noun": "spoon",
+      "score": 0.0965
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "move",
+      "noun": "flour",
+      "score": 0.0962
+    },
+    {
+      "segment": [
+        55.0,
+        57.0
+      ],
+      "verb": "put",
+      "noun": "spatula",
+      "score": 0.0962
+    },
+    {
+      "segment": [
+        44.0,
+        46.0
+      ],
+      "verb": "mix",
+      "noun": "sauce",
+      "score": 0.0961
+    },
+    {
+      "segment": [
+        66.0,
+        68.0
+      ],
+      "verb": "put",
+      "noun": "napkin",
+      "score": 0.0958
+    },
+    {
+      "segment": [
+        36.0,
+        38.0
+      ],
+      "verb": "search",
+      "noun": "cutlery",
+      "score": 0.0957
+    },
+    {
+      "segment": [
+        3.0,
+        5.0
+      ],
+      "verb": "transition",
+      "noun": "kitchen",
+      "score": 0.0952
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "pour",
+      "noun": "oatmeal",
+      "score": 0.0949
+    },
+    {
+      "segment": [
+        33.0,
+        35.0
+      ],
+      "verb": "set",
+      "noun": "alarm",
+      "score": 0.0943
+    },
+    {
+      "segment": [
+        8.0,
+        10.0
+      ],
+      "verb": "pour",
+      "noun": "bag",
+      "score": 0.0937
+    },
+    {
+      "segment": [
+        20.0,
+        22.0
+      ],
+      "verb": "take",
+      "noun": "potato",
+      "score": 0.0937
+    },
+    {
+      "segment": [
+        3.0,
+        5.0
+      ],
+      "verb": "open",
+      "noun": "hand",
+      "score": 0.0935
+    },
+    {
+      "segment": [
+        64.0,
+        66.0
+      ],
+      "verb": "take",
+      "noun": "light",
+      "score": 0.0933
+    },
+    {
+      "segment": [
+        22.0,
+        24.0
+      ],
+      "verb": "filter",
+      "noun": "pasta",
+      "score": 0.0932
+    },
+    {
+      "segment": [
+        61.0,
+        63.0
+      ],
+      "verb": "empty",
+      "noun": "package",
+      "score": 0.0932
+    },
+    {
+      "segment": [
+        53.0,
+        55.0
+      ],
+      "verb": "put",
+      "noun": "chopstick",
+      "score": 0.0931
+    },
+    {
+      "segment": [
+        15.0,
+        17.0
+      ],
+      "verb": "insert",
+      "noun": "package",
+      "score": 0.093
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "open",
+      "noun": "stock",
+      "score": 0.0926
+    },
+    {
+      "segment": [
+        34.0,
+        36.0
+      ],
+      "verb": "hang",
+      "noun": "cupboard",
+      "score": 0.0925
+    },
+    {
+      "segment": [
+        22.0,
+        24.0
+      ],
+      "verb": "pour",
+      "noun": "noodle",
+      "score": 0.0924
+    },
+    {
+      "segment": [
+        15.0,
+        17.0
+      ],
+      "verb": "put",
+      "noun": "package",
+      "score": 0.0923
+    },
+    {
+      "segment": [
+        54.0,
+        56.0
+      ],
+      "verb": "put",
+      "noun": "wrap:plastic",
+      "score": 0.0923
+    },
+    {
+      "segment": [
+        21.0,
+        23.0
+      ],
+      "verb": "pour",
+      "noun": "corn",
+      "score": 0.0921
+    },
+    {
+      "segment": [
+        61.0,
+        63.0
+      ],
+      "verb": "throw",
+      "noun": "bottle",
+      "score": 0.092
+    },
+    {
+      "segment": [
+        3.0,
+        5.0
+      ],
+      "verb": "transition",
+      "noun": "hand",
+      "score": 0.0915
+    },
+    {
+      "segment": [
+        65.0,
+        67.0
+      ],
+      "verb": "transition",
+      "noun": "plate",
+      "score": 0.0915
+    },
+    {
+      "segment": [
+        3.0,
+        5.0
+      ],
+      "verb": "open",
+      "noun": "water",
+      "score": 0.0914
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "remove",
+      "noun": "coffee",
+      "score": 0.0914
+    },
+    {
+      "segment": [
+        15.0,
+        17.0
+      ],
+      "verb": "open",
+      "noun": "bag",
+      "score": 0.0912
+    },
+    {
+      "segment": [
+        42.0,
+        44.0
+      ],
+      "verb": "mix",
+      "noun": "sauce",
+      "score": 0.0912
+    },
+    {
+      "segment": [
+        10.0,
+        12.0
+      ],
+      "verb": "insert",
+      "noun": "pasta",
+      "score": 0.091
+    },
+    {
+      "segment": [
+        16.0,
+        18.0
+      ],
+      "verb": "remove",
+      "noun": "clip",
+      "score": 0.0908
+    }
+  ],
+  "highlights": [
+    {
+      "segment": [
+        36.0,
+        40.2
+      ]
+    },
+    {
+      "segment": [
+        56.0,
+        60.2
+      ]
+    }
+  ]
+}

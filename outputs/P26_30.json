@@ -1,0 +1,370 @@
+{
+  "team_id": "INCOGNITO",
+  "video_id": "P26_30",
+  "duration_sec": 15.3,
+  "label": {
+    "name": "cooking",
+    "score": 0.7845
+  },
+  "actions": [
+    {
+      "segment": [
+        7.0,
+        10.0
+      ],
+      "verb": "put",
+      "noun": "lid",
+      "score": 0.94
+    },
+    {
+      "segment": [
+        1.0,
+        3.0
+      ],
+      "verb": "open",
+      "noun": "cupboard",
+      "score": 0.9287
+    },
+    {
+      "segment": [
+        10.0,
+        12.0
+      ],
+      "verb": "open",
+      "noun": "pot",
+      "score": 0.6497
+    },
+    {
+      "segment": [
+        11.0,
+        14.0
+      ],
+      "verb": "turn-off",
+      "noun": "tap",
+      "score": 0.5795
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "take",
+      "noun": "maker:coffee",
+      "score": 0.5722
+    },
+    {
+      "segment": [
+        9.0,
+        12.0
+      ],
+      "verb": "take",
+      "noun": "pot",
+      "score": 0.4667
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "move",
+      "noun": "pan",
+      "score": 0.3838
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "open",
+      "noun": "bottle",
+      "score": 0.3726
+    },
+    {
+      "segment": [
+        4.0,
+        7.0
+      ],
+      "verb": "open",
+      "noun": "maker:coffee",
+      "score": 0.3384
+    },
+    {
+      "segment": [
+        6.0,
+        10.0
+      ],
+      "verb": "take",
+      "noun": "lid",
+      "score": 0.3065
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "take",
+      "noun": "hob",
+      "score": 0.2773
+    },
+    {
+      "segment": [
+        12.0,
+        14.0
+      ],
+      "verb": "close",
+      "noun": "tap",
+      "score": 0.2587
+    },
+    {
+      "segment": [
+        5.0,
+        7.0
+      ],
+      "verb": "close",
+      "noun": "kettle",
+      "score": 0.2383
+    },
+    {
+      "segment": [
+        3.0,
+        5.0
+      ],
+      "verb": "take",
+      "noun": "maker:coffee",
+      "score": 0.221
+    },
+    {
+      "segment": [
+        11.0,
+        13.0
+      ],
+      "verb": "turn-on",
+      "noun": "tap",
+      "score": 0.1657
+    },
+    {
+      "segment": [
+        2.0,
+        5.0
+      ],
+      "verb": "take",
+      "noun": "pan",
+      "score": 0.134
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "open",
+      "noun": "lid",
+      "score": 0.1257
+    },
+    {
+      "segment": [
+        4.0,
+        6.0
+      ],
+      "verb": "turn-on",
+      "noun": "maker:coffee",
+      "score": 0.1194
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "take",
+      "noun": "grater",
+      "score": 0.1168
+    },
+    {
+      "segment": [
+        4.0,
+        6.0
+      ],
+      "verb": "remove",
+      "noun": "maker:coffee",
+      "score": 0.1134
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "take",
+      "noun": "maker:coffee",
+      "score": 0.1085
+    },
+    {
+      "segment": [
+        2.0,
+        4.0
+      ],
+      "verb": "move",
+      "noun": "cupboard",
+      "score": 0.1033
+    },
+    {
+      "segment": [
+        5.0,
+        7.0
+      ],
+      "verb": "open",
+      "noun": "kettle",
+      "score": 0.1025
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "take",
+      "noun": "cupboard",
+      "score": 0.1024
+    },
+    {
+      "segment": [
+        10.0,
+        12.0
+      ],
+      "verb": "insert",
+      "noun": "pot",
+      "score": 0.1024
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "take",
+      "noun": "filter",
+      "score": 0.102
+    },
+    {
+      "segment": [
+        9.0,
+        11.0
+      ],
+      "verb": "close",
+      "noun": "pot",
+      "score": 0.1003
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "put",
+      "noun": "bottle",
+      "score": 0.0988
+    },
+    {
+      "segment": [
+        0.0,
+        2.0
+      ],
+      "verb": "take",
+      "noun": "kitchen",
+      "score": 0.0984
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "close",
+      "noun": "bottle",
+      "score": 0.0975
+    },
+    {
+      "segment": [
+        3.0,
+        5.0
+      ],
+      "verb": "take",
+      "noun": "hob",
+      "score": 0.0963
+    },
+    {
+      "segment": [
+        5.0,
+        7.0
+      ],
+      "verb": "close",
+      "noun": "oven",
+      "score": 0.0963
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "open",
+      "noun": "cap",
+      "score": 0.0958
+    },
+    {
+      "segment": [
+        5.0,
+        7.0
+      ],
+      "verb": "close",
+      "noun": "maker:coffee",
+      "score": 0.0951
+    },
+    {
+      "segment": [
+        5.0,
+        7.0
+      ],
+      "verb": "open",
+      "noun": "oven",
+      "score": 0.093
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "put",
+      "noun": "lid",
+      "score": 0.0918
+    },
+    {
+      "segment": [
+        6.0,
+        8.0
+      ],
+      "verb": "move",
+      "noun": "maker:coffee",
+      "score": 0.0914
+    },
+    {
+      "segment": [
+        12.0,
+        14.0
+      ],
+      "verb": "close",
+      "noun": "water",
+      "score": 0.0914
+    },
+    {
+      "segment": [
+        13.0,
+        15.0
+      ],
+      "verb": "close",
+      "noun": "lid",
+      "score": 0.0911
+    }
+  ],
+  "highlights": [
+    {
+      "segment": [
+        8.0,
+        12.0
+      ]
+    }
+  ]
+}
