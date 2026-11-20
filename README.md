@@ -95,7 +95,7 @@ from 27 EPIC-100 **train** videos with a fixed 80/20 split (seed 7) and our impl
 
 | Check | Result |
 |---|---|
-| Output files | 183 of 187 validated (136 of 138 EPIC-100, 47 of 49 FPVSum), 0 invalid; median 336 actions per EPIC video |
+| Output files | 184 of 187 validated (137 of 138 EPIC-100, 47 of 49 FPVSum), 0 invalid; median 344 actions per EPIC video |
 | Highlight budget | mean 13.9% of video length and ≤ 15% for every video of 27 s or more; every segment ≥ 4.0 s, sorted, non-overlapping. Three EPIC clips of 11–25 s get the single 4 s segment the kit requires, which exceeds 15% of their length |
 | FPVSum label agreement with the dataset category in the video name (reporting only, never used by the code) | 41 of 47 (87%) |
 | Action-scoring head, held-out train videos | action mAP 0.735 → 0.737 (kept) |
