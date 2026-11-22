@@ -13,11 +13,4 @@ venv/
 .DS_Store
 .env
 
-# Ustad app
-ustad-app/data/*.db
-ustad-app/data/media/
-ustad-app/data/supervisor_token.txt
-ustad-app/data/takes/
-ustad-app/data/factory/
-ustad-app/data/*.log
 .playwright-mcp/

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ustad-app/web/assets/logo-blue.png" alt="Ustad logo" height="88" />
+  <img src="docs/media/logo-blue.png" alt="Ustad logo" height="88" />
 </p>
 
 <h1 align="center">Ustad · Action-aware video summarization</h1>
@@ -29,11 +29,9 @@ out exactly as the kit asks:
 | Submission summary | [`SUBMISSION.md`](SUBMISSION.md) |
 | Contributing · history | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`CHANGELOG.md`](CHANGELOG.md) (what each commit did) |
 
-**Evaluation data vs the product.** Track 4 is scored on the organisers' datasets only: EPIC-KITCHENS-100 (kitchens) and
-FPVSum (sports), and every number in this README comes from those videos. The same engine also runs inside the Ustad
-app for factory work, kept separately in [`ustad-app/`](ustad-app/). It is not part of the Track 4 evaluation, and its
-accuracy on factory footage has not been measured. The film and the deck show only EPIC-KITCHENS-100 footage
-(validation videos P04_28 and P01_12) with this repository's real output for them.
+**Evaluation data.** Track 4 is scored on the organisers' datasets only: EPIC-KITCHENS-100 (kitchens) and FPVSum
+(sports). Every number in this README comes from those videos, and the film and the deck show only EPIC-KITCHENS-100
+footage (validation videos P04_28 and P01_12) with this repository's real output for them.
 
 ```
 ./run.sh <video.mp4> <out.json>
@@ -188,7 +186,6 @@ requirements.txt, Dockerfile, get_weights.sh, validate.py
 kit/                   the organisers' student kit (manifest, classes, examples, TEAM_README)
 scripts/, cloud/       data download, batch runs, training, tuning, stats
 presentation/, video/  final deck and demo film
-ustad-app/             the Ustad factory app that uses the same engine (not part of the Track 4 evaluation)
 ```
 
 ## Limitations

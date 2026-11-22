@@ -53,13 +53,11 @@ the footage that captures the most distinct actions. One command per video, CPU 
 | Action mAP, held-out train videos | 0.737 (scoring head kept; 0.735 without it) |
 | FPVSum label agreement with the video-name category (reporting only) | 41 of 47 |
 
-## Kitchen data, factory product
+## Evaluation data
 
 Track 4 is scored only on the organisers' datasets: EPIC-KITCHENS-100 (kitchens) and FPVSum (sports). All Track 4
 numbers come from those videos, and the film and deck show only EPIC-KITCHENS-100 footage (P04_28, P01_12) with our
-real output for it. The same engine also runs in the Ustad factory app, kept in [`ustad-app/`](ustad-app/); that app is
-not part of the Track 4 evaluation. There we keep the verbs and map nouns outside a kitchen to
-"object"; accuracy on factory footage has not been measured.
+real output for it.
 
 ## Data hygiene
 

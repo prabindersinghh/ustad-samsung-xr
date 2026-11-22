@@ -1,11 +1,8 @@
 # Contributing
 
-Start here if you are new to this repository. It holds two things:
-
-| Where | What |
-|---|---|
-| repository root | **Track 4 package** (Samsung PRISM XR Hackathon 2026): action-aware summarization of first-person video. `run.sh`, `code/ustad_t4/`, `weights/`, `outputs/`, `validate.py`, `Dockerfile`. |
-| `ustad-app/` | **Ustad**, the factory copilot app that uses the same engine (FastAPI backend, web PWA, Modal deploy, tests). It has its own [README](ustad-app/README.md) and an agent/developer entry point in [`ustad-app/AGENTS.md`](ustad-app/AGENTS.md). |
+Start here if you are new to this repository. It is the **Track 4 package** for the Samsung PRISM XR
+Hackathon 2026 (action-aware summarization of first-person video): `run.sh`, `code/ustad_t4/`, `weights/`,
+`outputs/`, `validate.py`, `Dockerfile`.
 
 History of what each commit did: [CHANGELOG.md](CHANGELOG.md). Results and design: [README.md](README.md).
 Submission summary: [SUBMISSION.md](SUBMISSION.md).
@@ -52,7 +49,6 @@ Or `docker build -t thapar-incognito-t4 .` and `docker run --rm -v "$PWD/v:/v" t
 ## Commits and docs
 
 - One logical change per commit. Subject in the imperative, ≤ 72 characters, prefixed with the area when useful
-  (`Track 4:`, `README:`, `app:`). The body says *why* and quotes any number that changed.
+  (`Track 4:`, `README:`, `docs:`). The body says *why* and quotes any number that changed.
 - Add a line to [CHANGELOG.md](CHANGELOG.md) for every change a reviewer would care about.
 - If you change a result, update the README results table in the same commit.
-- For the app, follow `ustad-app/AGENTS.md` (it says which file in `ustad-app/docs/` to update).
