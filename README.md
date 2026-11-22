@@ -27,6 +27,7 @@ out exactly as the kit asks:
 | Video | [`video/Thapar_INCOGNITO_demo_final.mp4`](video/Thapar_INCOGNITO_demo_final.mp4) (2:15) |
 | AI disclosure | [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) |
 | Submission summary | [`SUBMISSION.md`](SUBMISSION.md) |
+| Contributing · history | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`CHANGELOG.md`](CHANGELOG.md) (what each commit did) |
 
 **Evaluation data vs the product.** Track 4 is scored on the organisers' datasets only: EPIC-KITCHENS-100 (kitchens) and
 FPVSum (sports), and every number in this README comes from those videos. The same engine also runs inside the Ustad
