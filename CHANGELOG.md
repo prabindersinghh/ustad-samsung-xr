@@ -32,6 +32,7 @@ care about (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 | [`d6e156d`](../../commit/d6e156d) | CONTRIBUTING.md for new contributors; neutral AI-disclosure wording; removed a redundant agent pointer file. |
 | `7820adc` | CHANGELOG.md. |
 | (latest) | Latest presentation (PPTX + PDF) from the team. |
+| (latest) | Track 4 only: removed the factory app; deck and film show only EPIC-KITCHENS footage. |
 
 ## Verified at submission
 
