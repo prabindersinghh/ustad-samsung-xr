@@ -1,8 +1,37 @@
-# Thapar_INCOGNITO — Ustad, Track 4: Action-Aware Video Summarization
+<p align="center">
+  <img src="ustad-app/web/assets/logo-blue.png" alt="Ustad logo" height="88" />
+</p>
 
-Samsung PRISM XR Hackathon 2026. This folder is the Track 4 submission of **Ustad**, a copilot for
-hands-on work on XR glasses. In Ustad the same pipeline turns an expert's first-person recording into an
-action timeline and a highlight reel (see `backend/action_timeline.py` and `/highlights` in the app).
+<h1 align="center">Ustad · Action-aware video summarization</h1>
+
+<p align="center">
+  <b>Samsung PRISM XR Hackathon 2026 · Track 04 · Team Incognito (<code>Thapar_INCOGNITO</code>)</b><br />
+  Thapar Institute of Engineering &amp; Technology · Prabinder Singh, Anish Grover, Prabhasees Singh
+</p>
+
+<p align="center">
+  <img src="docs/media/kitchen-glasses-view.gif" alt="Concept view through XR glasses over EPIC-KITCHENS video P04_28: the model's real action labels appear as the hands work, and the timeline shows the selected highlights" width="720" />
+  <br />
+  <sub>Concept view through XR glasses over real EPIC-KITCHENS-100 video P04_28. Labels, scores and highlights are this repository's actual output for that video (<code>outputs/P04_28.json</code>). Not tested on glasses hardware yet.</sub>
+</p>
+
+Ustad recognises every hand–object action in a first-person video as a timed verb–noun pair, then keeps the 15% of
+the footage that captures the most distinct actions. **This repository root is the Track 4 submission package**, laid
+out exactly as the kit asks:
+
+| Checklist item | Where |
+|---|---|
+| Submission package | this folder: [`run.sh`](run.sh), [`code/`](code/), [`weights/`](weights/), [`requirements.txt`](requirements.txt), [`outputs/`](outputs/) (185 JSONs), this `README.md`; plus [`Dockerfile`](Dockerfile), [`get_weights.sh`](get_weights.sh), [`validate.py`](validate.py) |
+| Source code | [`code/ustad_t4/`](code/ustad_t4/) |
+| Presentation | [`presentation/`](presentation/) (PPTX and PDF, named CollegeName_TeamName) |
+| Video | [`video/Thapar_INCOGNITO_demo_final.mp4`](video/Thapar_INCOGNITO_demo_final.mp4) (2:15) |
+| AI disclosure | [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) |
+| Submission summary | [`SUBMISSION.md`](SUBMISSION.md) |
+
+**Evaluation data vs the product.** Track 4 is scored on the organisers' datasets only: EPIC-KITCHENS-100 (kitchens) and
+FPVSum (sports), and every number in this README comes from those videos. The same engine also runs inside the Ustad
+app for factory work, kept separately in [`ustad-app/`](ustad-app/) (the factory footage in the film and deck comes
+from there). It is not part of the Track 4 evaluation, and its accuracy on factory footage has not been measured.
 
 ```
 ./run.sh <video.mp4> <out.json>
@@ -148,13 +177,16 @@ format `validate.py` checks.
 ## Files
 
 ```
-run.sh                 entry point
+run.sh                 entry point: ./run.sh <video.mp4> <out.json>
 code/ustad_t4/         pipeline (run, actions, label, importance, postprocess, select, refine, schema, scoring)
 code/third_party/lavila_min  LaViLa model definition, two files (MIT licence)
-weights/               LaViLa, OpenCLIP, refine.json, policy.json
-outputs/               one JSON per manifest video
-scripts/, cloud/       data download, batch runs, training, validation
-requirements.txt, Dockerfile
+weights/               LaViLa, OpenCLIP, refine.json, policy.json, SHA256SUMS
+outputs/               one JSON per manifest video (185)
+requirements.txt, Dockerfile, get_weights.sh, validate.py
+kit/                   the organisers' student kit (manifest, classes, examples, TEAM_README)
+scripts/, cloud/       data download, batch runs, training, tuning, stats
+presentation/, video/  final deck and demo film
+ustad-app/             the Ustad factory app that uses the same engine (not part of the Track 4 evaluation)
 ```
 
 ## Limitations
