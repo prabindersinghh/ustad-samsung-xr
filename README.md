@@ -31,8 +31,9 @@ out exactly as the kit asks:
 
 **Evaluation data vs the product.** Track 4 is scored on the organisers' datasets only: EPIC-KITCHENS-100 (kitchens) and
 FPVSum (sports), and every number in this README comes from those videos. The same engine also runs inside the Ustad
-app for factory work, kept separately in [`ustad-app/`](ustad-app/) (the factory footage in the film and deck comes
-from there). It is not part of the Track 4 evaluation, and its accuracy on factory footage has not been measured.
+app for factory work, kept separately in [`ustad-app/`](ustad-app/). It is not part of the Track 4 evaluation, and its
+accuracy on factory footage has not been measured. The film and the deck show only EPIC-KITCHENS-100 footage
+(validation videos P04_28 and P01_12) with this repository's real output for them.
 
 ```
 ./run.sh <video.mp4> <out.json>

@@ -23,7 +23,7 @@ The REINFORCE highlight policy we trained lost to the greedy rule on held-out vi
 - **Writing:** the README, docs, deck text and film script were drafted with the AI assistant and edited by the team.
 - **Film:** narration is synthetic speech (Microsoft Edge neural TTS, voice "Andrew"); the music was generated
   procedurally by our own script; visuals are HTML/GSAP compositions rendered with HyperFrames. Footage is real:
-  EPIC-KITCHENS-100 validation video P04_28 and our own recordings from a partner plant.
+  EPIC-KITCHENS-100 validation videos P04_28 and P01_12, shown with this repository's actual output for them.
 - **3D:** the glasses images and turntable are renders of a 3D model (`glasses.glb`) made with three.js, with the
   manufacturer's logo decals hidden.
 
