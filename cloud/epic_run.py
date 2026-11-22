@@ -45,7 +45,7 @@ def process(video_id: str) -> str:
     import time
 
     os.environ["USTAD_SAVE_PREDS"] = "/vol/preds"
-    os.environ.setdefault("TEAM_ID", "INCOGNITO")
+    os.environ.setdefault("TEAM_ID", "Thapar_INCOGNITO")
     sys.path.insert(0, "/app/code")
     import torch
     torch.set_num_threads(16)

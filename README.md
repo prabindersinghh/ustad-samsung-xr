@@ -1,4 +1,4 @@
-# INCOGNITO — Ustad, Track 4: Action-Aware Video Summarization
+# Thapar_INCOGNITO — Ustad, Track 4: Action-Aware Video Summarization
 
 Samsung PRISM XR Hackathon 2026. This folder is the Track 4 submission of **Ustad**, a copilot for
 hands-on work on XR glasses. In Ustad the same pipeline turns an expert's first-person recording into an
@@ -136,7 +136,7 @@ as excluded, not missing.
 
 ## Team ID
 
-`team_id` comes from the `TEAM_ID` environment variable (default `INCOGNITO`, set in the Dockerfile).
+`team_id` comes from the `TEAM_ID` environment variable (default `Thapar_INCOGNITO`, set in the Dockerfile).
 `python scripts/set_team_id.py <TEAM_ID>` rewrites it in every file of `outputs/` without touching anything else.
 
 ## Note on the output schema

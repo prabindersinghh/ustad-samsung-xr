@@ -27,7 +27,7 @@ from pathlib import Path
 from . import actions as action_model
 from . import importance, label as label_model, postprocess, schema, select, video
 
-TEAM_ID = os.environ.get("TEAM_ID", "INCOGNITO")
+TEAM_ID = os.environ.get("TEAM_ID", "Thapar_INCOGNITO")
 KITCHEN_GATE = 0.15  # CLIP probability of "cooking" above which the action model runs
 HERE = Path(__file__).resolve().parent
 VOCAB = json.loads((HERE / "supported_classes.json").read_text())  # copy of the kit file

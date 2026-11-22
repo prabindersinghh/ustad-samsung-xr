@@ -10,8 +10,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY run.sh get_weights.sh validate.py ./
 COPY code ./code
-COPY kit ./kit
 COPY weights ./weights
 RUN chmod +x run.sh get_weights.sh && ./get_weights.sh
-ENV TEAM_ID=INCOGNITO
+ENV TEAM_ID=Thapar_INCOGNITO
 ENTRYPOINT ["./run.sh"]

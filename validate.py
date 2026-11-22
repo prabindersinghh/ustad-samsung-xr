@@ -25,8 +25,10 @@ sys.path.insert(0, str(ROOT / "code"))
 from ustad_t4 import schema  # noqa: E402
 
 EXCLUDED = {"Scuba_KD74Ywuy9ng", "Scuba_Um4kqB8bQBg"}  # organisers: excluded from scoring
-MANIFEST = {r["video_id"]: float(r["duration_sec"]) for r in csv.DictReader((ROOT / "kit" / "manifest.csv").open())}
-VOCAB = json.loads((ROOT / "kit" / "supported_classes.json").read_text())
+# Copies of the kit files ship inside code/ustad_t4/, so this works in the submitted folder without kit/.
+KIT = ROOT / "kit" if (ROOT / "kit" / "manifest.csv").exists() else ROOT / "code" / "ustad_t4"
+MANIFEST = {r["video_id"]: float(r["duration_sec"]) for r in csv.DictReader((KIT / "manifest.csv").open())}
+VOCAB = json.loads((KIT / "supported_classes.json").read_text())
 
 
 def check_file(path: Path, verbose: bool) -> tuple[bool, str | None]:
