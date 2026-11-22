@@ -45,6 +45,15 @@ def load_policy():
     return p["weights"]
 
 
+def kitchen_label(lab: dict, kitchen: bool, acts: list, cook_p: float = 0.0) -> dict:
+    """Content rule for EPIC-style kitchen footage: when CLIP's kitchen gate opened
+    and the action model then found hand-object actions, the video is labelled
+    cooking. Decided from the pixels and the model outputs, never from the ID."""
+    if kitchen and acts and lab["name"] != "cooking":
+        return {"name": "cooking", "score": round(max(cook_p, 0.5), 4)}
+    return lab
+
+
 def summarize(path: str, gate: bool = True) -> dict:
     """gate=False always runs the action model (the Ustad app: hands-on work
     footage that is not a kitchen, where the action timeline is the point)."""
@@ -55,7 +64,8 @@ def summarize(path: str, gate: bool = True) -> dict:
     # Kitchen footage gets the EPIC action model; other activities (FPVSum's
     # sports) are scored on highlight F1 only, so the kitchen model would only
     # add noise there. The gate is CLIP's view of the content, never the ID.
-    kitchen = (not gate) or label_model.cooking_prob(path, dur) >= KITCHEN_GATE
+    cook_p = label_model.cooking_prob(path, dur) if gate else 0.0
+    kitchen = (not gate) or cook_p >= KITCHEN_GATE
 
     acts: list[dict] = []
     preds = []
@@ -69,6 +79,7 @@ def summarize(path: str, gate: bool = True) -> dict:
                 json.dumps({"duration": dur, "motion": motion, "windows": [asdict(w) for w in preds]}))
 
     lab = label_model.classify(path, dur, preds, VOCAB)
+    lab = kitchen_label(lab, gate and kitchen, acts, cook_p)
 
     cands = postprocess.highlight_candidates(preds, dur, motion)
     if cands and any(c.pairs for c in cands):

@@ -42,7 +42,8 @@ def main(preds_dir: str, cloud_dir: str, out_dir: str) -> int:
         else:
             hl = json.loads(cloud.read_text())["highlights"]
         doc = {"team_id": run.TEAM_ID, "video_id": vid, "duration_sec": round(dur, 2),
-               "label": json.loads(cloud.read_text())["label"], "actions": acts, "highlights": hl}
+               "label": run.kitchen_label(json.loads(cloud.read_text())["label"], True, acts),
+               "actions": acts, "highlights": hl}
         errors, _ = schema.check(doc, vocab=run.VOCAB)
         if errors:
             bad += 1

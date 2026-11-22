@@ -17,6 +17,7 @@ Python 3.12 and ffmpeg/ffprobe on PATH.
 
 ```bash
 pip install -r requirements.txt
+./get_weights.sh                     # no-op if weights/ already has both checkpoints
 ./run.sh /path/P01_11.mp4 outputs/P01_11.json
 ```
 
@@ -45,6 +46,8 @@ video ─┬─ ffprobe duration
                            a pair counts only if ≥ 50% of its run is inside the candidate;
                            coverage-greedy selection (new pairs per second of budget) ≤ 15%
               otherwise:   0.4·motion + 0.6·CLIP "exciting moment of <label>" curve, importance selection
+       label rule: if the kitchen gate opened and the action model found hand-object actions, label = cooking
+                   (content-based, from the pixels and model outputs; never from the video ID)
 ```
 
 | Stage | Model | Weights | Trained on |
@@ -108,9 +111,9 @@ from 27 EPIC-100 **train** videos with a fixed 80/20 split (seed 7) and our impl
 | Threshold choice | 0.25: LaViLa is more confident on its own train videos, and 0.25 on the val videos gives the same confident-run density (≈ 16/min) as 0.3 on train |
 | Coverage / action mAP of the shipped pipeline, held-out train videos | 0.396 / 0.737 (overstated, see caveat above) |
 
-Two FPVSum videos (`Scuba_KD74Ywuy9ng`, `Scuba_Um4kqB8bQBg`) could not be downloaded: YouTube reports them
-unavailable from our region and blocks the cloud fallback. Run `./run.sh` on them to produce their outputs; the
-pipeline handles them like any other video.
+Two FPVSum videos (`Scuba_KD74Ywuy9ng`, `Scuba_Um4kqB8bQBg`) are no longer available on YouTube. The organisers
+confirmed on 22 Nov that they are excluded from scoring, so `outputs/` has 185 files and `validate.py` reports them
+as excluded, not missing.
 
 ## Reproducing `outputs/`
 
@@ -120,10 +123,21 @@ pipeline handles them like any other video.
   what `./run.sh` gives for the same video with the final weights (spot-checked by re-running `./run.sh`).
 - FPVSum (49): `scripts/download_fpvsum.py` (official `FPVSum_videolist.csv` mapping, yt-dlp) then
   `scripts/run_dir.py`.
-- `scripts/check_outputs.py` validates every file against the manifest durations and vocabulary;
-  `scripts/stats.py` prints the numbers above.
+- `python validate.py --dir outputs/` (or `--file <json> -v`) checks every rule in the kit README: the six keys,
+  types and ranges, duration within 0.5 s of the manifest, labels/verbs/nouns in `supported_classes.json`, segment
+  bounds, highlights sorted and non-overlapping with one ≥ 4 s, the 15% budget (warning), file name = `video_id`,
+  one `team_id` across all files, and full manifest coverage. The kit's own `validate.py` was not shipped to teams,
+  so this is ours. `scripts/stats.py` prints the numbers above.
 - `scripts/make_reel.py <video> <json> <reel.mp4>` cuts the highlight reel from the original footage.
-- Weights: `./get_weights.sh` downloads and verifies the two large checkpoints from the GitHub release.
+- Weights: the submitted `TEAM_ID/` folder contains both checkpoints in `weights/`. In a git clone they are not in
+  the repository (GitHub's 100 MB file limit), so `./get_weights.sh` fetches them from the `weights-v1` release and
+  verifies `weights/SHA256SUMS`; it skips files already present. The Docker build runs it, so the image always has
+  the weights.
+
+## Team ID
+
+`team_id` comes from the `TEAM_ID` environment variable (default `INCOGNITO`, set in the Dockerfile).
+`python scripts/set_team_id.py <TEAM_ID>` rewrites it in every file of `outputs/` without touching anything else.
 
 ## Note on the output schema
 

@@ -3,8 +3,8 @@
   "video_id": "P07_13",
   "duration_sec": 60.67,
   "label": {
-    "name": "other",
-    "score": 0.5439
+    "name": "cooking",
+    "score": 0.5
   },
   "actions": [
     {
