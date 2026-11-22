@@ -30,7 +30,8 @@ care about (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 | [`bc9ab08`](../../commit/bc9ab08) | README and SUBMISSION.md brought to the final state: Track 4 at a glance, coverage under the 50% rule, kitchen-data vs factory-product note, run commands. |
 | [`0a7ff53`](../../commit/0a7ff53) | Restructured: the repository root is now the Track 4 package (kit layout); new README hero on EPIC kitchen footage with real labels. |
 | [`d6e156d`](../../commit/d6e156d) | CONTRIBUTING.md for new contributors; neutral AI-disclosure wording; removed a redundant agent pointer file. |
-| (this commit) | CHANGELOG.md. |
+| `7820adc` | CHANGELOG.md. |
+| (latest) | Latest presentation (PPTX + PDF) from the team. |
 
 ## Verified at submission
 
