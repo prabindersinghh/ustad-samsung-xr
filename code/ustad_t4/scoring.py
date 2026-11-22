@@ -4,9 +4,10 @@ The official scorer is not public, so these follow the README as closely as its
 wording allows. They are used only on EPIC-100 *train* videos (never the scored
 manifest videos), to tune and to train the selection policy.
 
-coverage   share of distinct ground-truth (verb, noun) pairs whose segment
-           overlaps a selected highlight, times a soft penalty when highlights
-           exceed 15% of the duration.
+coverage   share of distinct ground-truth (verb, noun) pairs with an instance
+           at least 50% inside the union of the highlights (organisers'
+           clarification, 22 Nov), times a soft penalty when highlights exceed
+           15% of the duration.
 action_map mean over tIoU 0.1..0.5 of per-pair average precision for the
            predicted action segments (ActivityNet-style detection AP).
 """
@@ -21,6 +22,14 @@ def _overlap(a, b) -> float:
     return max(0.0, min(a[1], b[1]) - max(a[0], b[0]))
 
 
+def _inside(seg, highlights) -> float:
+    """Share of seg covered by the union of the (non-overlapping) highlights."""
+    length = seg[1] - seg[0]
+    if length <= 0:
+        return 1.0 if any(h[0] <= seg[0] <= h[1] for h in highlights) else 0.0
+    return sum(_overlap(seg, h) for h in highlights) / length
+
+
 def tiou(a, b) -> float:
     inter = _overlap(a, b)
     union = (a[1] - a[0]) + (b[1] - b[0]) - inter
@@ -32,7 +41,7 @@ def coverage(gt: list[dict], highlights: list[list[float]], duration: float, bud
     if not pairs:
         return 0.0
     hl = [h for h in highlights if h[1] - h[0] >= 4.0]
-    hit = {(g["verb"], g["noun"]) for g in gt if any(_overlap(g["segment"], h) > 0 for h in hl)}
+    hit = {(g["verb"], g["noun"]) for g in gt if _inside(g["segment"], hl) >= 0.5}
     total = sum(h[1] - h[0] for h in hl)
     penalty = min(1.0, budget * duration / total) if total > 0 else 0.0
     return len(hit) / len(pairs) * penalty

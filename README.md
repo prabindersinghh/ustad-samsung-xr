@@ -41,7 +41,8 @@ video ─┬─ ffprobe duration
        ├─ LaViLa TimeSformer-B, EPIC-100 verb & noun heads, 2 s windows every 1 s (16 frames @ 8 fps)
        │      └─ top-3 verbs × top-3 nouns per window → runs of the same pair → scored  ──►  actions
        └─ highlights
-              kitchen:     4.2 s candidates carrying the verb-noun pairs seen in them,
+              kitchen:     4.2 s sliding candidates + one candidate fitted to each confident run;
+                           a pair counts only if ≥ 50% of its run is inside the candidate;
                            coverage-greedy selection (new pairs per second of budget) ≤ 15%
               otherwise:   0.4·motion + 0.6·CLIP "exciting moment of <label>" curve, importance selection
 ```
@@ -60,7 +61,10 @@ The verb and noun heads index EPIC's canonical class ids, which are the first 97
 
 - **Action coverage is 40% of the score**, so highlights are chosen to buy *distinct verb-noun pairs per
   second of budget*, not peaks of a saliency curve. The greedy selector is the classic (1 − 1/e)
-  approximation for this budgeted coverage objective.
+  approximation for this budgeted coverage objective. The organisers clarified (22 Nov) that an action
+  is captured when ≥ 50% of its duration lies inside the union of the highlights, labels not required,
+  so a candidate only gets credit for pairs whose predicted run is at least half inside it, and every
+  confident run also proposes a candidate fitted to its own extent.
 - **Action mAP rewards recall at tIoU 0.1–0.5 with a good ranking**, so each window proposes 9 pairs and
   the final ranking comes from the scoring head.
 - **FPVSum videos are scored on highlight F1 and label only**, so the kitchen model is skipped there; the
@@ -99,9 +103,10 @@ from 27 EPIC-100 **train** videos with a fixed 80/20 split (seed 7) and our impl
 | Highlight budget | mean 13.9% of video length and ≤ 15% for every video of 27 s or more; every segment ≥ 4.0 s, sorted, non-overlapping. Three EPIC clips of 11–25 s get the single 4 s segment the kit requires, which exceeds 15% of their length |
 | FPVSum label agreement with the dataset category in the video name (reporting only, never used by the code) | 41 of 47 (87%) |
 | Action-scoring head, held-out train videos | action mAP 0.735 → 0.737 (kept) |
-| RL highlight policy, held-out train videos | coverage 0.465 vs greedy rule 0.479 (not used) |
-| Coverage-confidence threshold 0.12 vs 0.20, all 27 train videos | 10 better, 10 worse, 7 equal: kept 0.12 |
-| Coverage / action mAP of the shipped pipeline, held-out train videos | 0.479 / 0.737 (overstated, see caveat above) |
+| RL highlight policy, held-out train videos (any-overlap rule, before the clarification) | coverage 0.465 vs greedy rule 0.479 (not used) |
+| Coverage under the ≥ 50% capture rule, all 27 train videos | 0.302 → 0.369 after run-fitted candidates and threshold 0.25 (19 better, 3 worse, 5 equal) |
+| Threshold choice | 0.25: LaViLa is more confident on its own train videos, and 0.25 on the val videos gives the same confident-run density (≈ 16/min) as 0.3 on train |
+| Coverage / action mAP of the shipped pipeline, held-out train videos | 0.396 / 0.737 (overstated, see caveat above) |
 
 Two FPVSum videos (`Scuba_KD74Ywuy9ng`, `Scuba_Um4kqB8bQBg`) could not be downloaded: YouTube reports them
 unavailable from our region and blocks the cloud fallback. Run `./run.sh` on them to produce their outputs; the
